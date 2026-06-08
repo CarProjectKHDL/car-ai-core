@@ -1,0 +1,16 @@
+# Data Ingestion (Bronze Layer)
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Data Processing & Storage (Silver Layer)
+pandas==2.2.2
+numpy==1.26.4
+
+# AI Engineering & Modeling (Gold Layer)
+scikit-learn==1.5.0
+xgboost==2.0.3
+
+# Pipeline Utilities
+schedule==1.2.2
+
+pymongo[srv]==4.7.2
