@@ -151,6 +151,8 @@ def clean_and_transform_silver():
     silver_df = pd.DataFrame(silver_data)
     silver_df = silver_df.dropna(subset=['price_numeric', 'year'])
     
+    os.makedirs(os.path.dirname(silver_path), exist_ok=True)
+    
     silver_df.to_csv(silver_path, index=False, encoding='utf-8-sig')
     print(f"[GUARDRAIL UPGRADED] Tầng Silver cập nhật thành công tại '{silver_path}' với {len(silver_df)} dòng dữ liệu")
 
