@@ -1,0 +1,5207 @@
+{
+    "ford": {
+        "official_brand": "Ford",
+        "core_models": [
+            "Ranger",
+            "Everest",
+            "Territory",
+            "Transit",
+            "EcoSport",
+            "Explorer",
+            "Focus",
+            "Fiesta",
+            "Escape",
+            "Tourneo",
+            "Mustang",
+            "Mondeo",
+            "Acononline",
+            "Aerostar",
+            "Aspire",
+            "Bronco",
+            "Capri",
+            "Caravan",
+            "Cargo",
+            "Club wagon",
+            "Contour",
+            "Courier",
+            "Crown victoria",
+            "E450",
+            "Econoline",
+            "Edge",
+            "Escort",
+            "EscurSeon",
+            "Expedition",
+            "Express",
+            "F150",
+            "F250",
+            "F350",
+            "F450",
+            "F700",
+            "Flex",
+            "Focus C Max",
+            "Fusion",
+            "Galaxie",
+            "Imax",
+            "Ka",
+            "Laser",
+            "Maverick",
+            "Orion",
+            "Pinto",
+            "Probe",
+            "Puma",
+            "Sierra",
+            "Streetka",
+            "Taurus",
+            "Tempo",
+            "Windstar",
+            "Khác",
+            "Ranger Raptor",
+            "Mustang Mach-E"
+        ],
+        "trims": {
+            "ecosport": {
+                "ecosport 1.5 at trend": 603.0,
+                "ecosport 1.5 at titanium": 646.0,
+                "ecosport 1.0 at titanium": 686.0
+            },
+            "everest": {
+                "everest 4x2 2.0 sport": 1000.0,
+                "everest 4x2 2.0 titanium": 1000.0,
+                "everest 4x4 2.0 titanium": 1000.0,
+                "everest ambient 2.0l at 4x2": 1000.0,
+                "everest sport 2.0l at 4x2": 1000.0,
+                "everest titanium 2.0l at 4x2": 1000.0,
+                "everest titanium+ 2.0l at 4x4": 1000.0,
+                "everest ambient 2.0 at 4x2": 1000.0,
+                "everest sport 2.0 at 4x2": 1000.0,
+                "everest titanium 2.0 at 4x2": 1000.0,
+                "everest titanium+ 2.0 at 4x4": 1000.0,
+                "everest wildtrak 2.0 at 4x4": 1000.0,
+                "everest platinum 2.0 at 4x4": 1000.0,
+                "everest active 2.0 at 4x2": 1000.0,
+                "everest platinum 2.0 at 4x2": 1000.0,
+                "everest platinum+ 2.3 at 4x4": 1000.0
+            },
+            "ranger": {
+                "ranger xl mt 2.2 4x4": 628.0,
+                "ranger xls mt 2.2": 642.0,
+                "ranger xls at 2.2": 662.0,
+                "ranger ltd 2.0 4x4": 811.0,
+                "ranger wildtrak 2.0 4x4": 937.0,
+                "ranger raptor": 1000.0,
+                "ranger xls 2.0 4x2 mt": 665.0,
+                "ranger xl 2.0 4x4 mt": 669.0,
+                "ranger xls 2.0 4x2 at": 707.0,
+                "ranger xls 2.0 4x4 at": 776.0,
+                "ranger xlt 2.0 4x4 at": 830.0,
+                "ranger sport 2.0 4x4 at": 864.0,
+                "ranger wildtrak 2.0 4x4 at": 979.0,
+                "ranger stormtrak 2.0 4x4 at": 1000.0,
+                "ranger wildtrak 3.0 4x4 at": 1000.0
+            },
+            "explorer": {
+                "explorer limited 4wd": 2000.0
+            },
+            "territory": {
+                "territory trend": 739.0,
+                "territory titanium": 819.0,
+                "territory sport": 869.0,
+                "territory titanium x": 875.0
+            },
+            "ranger raptor": {
+                "ranger raptor 2.0 4wd at": 1000.0,
+                "ranger raptor 3.0 4wd at": 1000.0
+            },
+            "mustang mach-e": {
+                "mustang mach-e premium awd": 1000.0
+            },
+            "transit": {
+                "transit": 0
+            },
+            "focus": {
+                "focus": 0
+            },
+            "fiesta": {
+                "fiesta": 0
+            },
+            "escape": {
+                "escape": 0
+            },
+            "tourneo": {
+                "tourneo": 0
+            },
+            "mustang": {
+                "mustang": 0
+            },
+            "mondeo": {
+                "mondeo": 0
+            },
+            "acononline": {
+                "acononline": 0
+            },
+            "aerostar": {
+                "aerostar": 0
+            },
+            "aspire": {
+                "aspire": 0
+            },
+            "bronco": {
+                "bronco": 0
+            },
+            "capri": {
+                "capri": 0
+            },
+            "caravan": {
+                "caravan": 0
+            },
+            "cargo": {
+                "cargo": 0
+            },
+            "club wagon": {
+                "club wagon": 0
+            },
+            "contour": {
+                "contour": 0
+            },
+            "courier": {
+                "courier": 0
+            },
+            "crown victoria": {
+                "crown victoria": 0
+            },
+            "e450": {
+                "e450": 0
+            },
+            "econoline": {
+                "econoline": 0
+            },
+            "edge": {
+                "edge": 0
+            },
+            "escort": {
+                "escort": 0
+            },
+            "escurseon": {
+                "escurseon": 0
+            },
+            "expedition": {
+                "expedition": 0
+            },
+            "express": {
+                "express": 0
+            },
+            "f150": {
+                "f150": 0
+            },
+            "f250": {
+                "f250": 0
+            },
+            "f350": {
+                "f350": 0
+            },
+            "f450": {
+                "f450": 0
+            },
+            "f700": {
+                "f700": 0
+            },
+            "flex": {
+                "flex": 0
+            },
+            "focus c max": {
+                "focus c max": 0
+            },
+            "fusion": {
+                "fusion": 0
+            },
+            "galaxie": {
+                "galaxie": 0
+            },
+            "imax": {
+                "imax": 0
+            },
+            "ka": {
+                "ka": 0
+            },
+            "laser": {
+                "laser": 0
+            },
+            "maverick": {
+                "maverick": 0
+            },
+            "orion": {
+                "orion": 0
+            },
+            "pinto": {
+                "pinto": 0
+            },
+            "probe": {
+                "probe": 0
+            },
+            "puma": {
+                "puma": 0
+            },
+            "sierra": {
+                "sierra": 0
+            },
+            "streetka": {
+                "streetka": 0
+            },
+            "taurus": {
+                "taurus": 0
+            },
+            "tempo": {
+                "tempo": 0
+            },
+            "windstar": {
+                "windstar": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "mitsubishi": {
+        "official_brand": "Mitsubishi",
+        "core_models": [
+            "Xpander",
+            "Outlander",
+            "Triton",
+            "Attrage",
+            "Xforce",
+            "Pajero Sport",
+            "Jolie",
+            "Pajero",
+            "Mirage",
+            "Grandis",
+            "Lancer",
+            "Zinger",
+            "3000GT",
+            "Airtek",
+            "Canter",
+            "Carisma",
+            "Challenger",
+            "Chariot",
+            "Colt",
+            "Delica",
+            "Destinator",
+            "Diamante",
+            "Dion",
+            "Eclipse",
+            "EK wagon",
+            "FTO",
+            "Fuso Canter",
+            "Fuso Rosa",
+            "Galant",
+            "Grunder",
+            "GTO",
+            "Hover",
+            "IO",
+            "Jeep",
+            "L200",
+            "L300",
+            "L400",
+            "Libero",
+            "Minica",
+            "Montero",
+            "Navita",
+            "Outlander Sport",
+            "Pajero Pinin",
+            "Santamo",
+            "Savrin",
+            "Sigma",
+            "Space Gear",
+            "Space wagon",
+            "Starion",
+            "Veryca",
+            "Khác"
+        ],
+        "trims": {
+            "attrage": {
+                "attrage mt": 380.0,
+                "attrage cvt": 465.0,
+                "attrage cvt premium": 490.0
+            },
+            "outlander": {
+                "outlander 2.0 cvt": 825.0,
+                "outlander 2.0 cvt premium": 950.0,
+                "outlander 2.4 cvt premium": 1000.0
+            },
+            "triton": {
+                "triton 4x2 at mivec (euro 5)": 650.0,
+                "triton 4x2 at athlete (euro 5)": 780.0,
+                "triton 4x4 at athlete (euro 5)": 905.0,
+                "triton 2wd at glx": 655.0,
+                "triton 2wd at premium": 782.0,
+                "triton 4wd at athlete": 924.0
+            },
+            "pajero sport": {
+                "pajero sport 4x2 at premium": 1000.0,
+                "pajero sport 4x4 at premium": 1000.0
+            },
+            "xpander": {
+                "xpander mt": 560.0,
+                "xpander at đặc biệt": 630.0,
+                "xpander at": 598.0,
+                "xpander cross": 699.0,
+                "xpander at premium": 659.0
+            },
+            "xforce": {
+                "xforce glx": 605.0,
+                "xforce exceed": 640.0,
+                "xforce premium": 680.0,
+                "xforce ultimate": 720.0,
+                "xforce luxury": 665.0
+            },
+            "destinator": {
+                "destinator premium": 780.0,
+                "destinator ultimate": 855.0
+            },
+            "jolie": {
+                "jolie": 0
+            },
+            "pajero": {
+                "pajero": 0
+            },
+            "mirage": {
+                "mirage": 0
+            },
+            "grandis": {
+                "grandis": 0
+            },
+            "lancer": {
+                "lancer": 0
+            },
+            "zinger": {
+                "zinger": 0
+            },
+            "3000gt": {
+                "3000gt": 0
+            },
+            "airtek": {
+                "airtek": 0
+            },
+            "canter": {
+                "canter": 0
+            },
+            "carisma": {
+                "carisma": 0
+            },
+            "challenger": {
+                "challenger": 0
+            },
+            "chariot": {
+                "chariot": 0
+            },
+            "colt": {
+                "colt": 0
+            },
+            "delica": {
+                "delica": 0
+            },
+            "diamante": {
+                "diamante": 0
+            },
+            "dion": {
+                "dion": 0
+            },
+            "eclipse": {
+                "eclipse": 0
+            },
+            "ek wagon": {
+                "ek wagon": 0
+            },
+            "fto": {
+                "fto": 0
+            },
+            "fuso canter": {
+                "fuso canter": 0
+            },
+            "fuso rosa": {
+                "fuso rosa": 0
+            },
+            "galant": {
+                "galant": 0
+            },
+            "grunder": {
+                "grunder": 0
+            },
+            "gto": {
+                "gto": 0
+            },
+            "hover": {
+                "hover": 0
+            },
+            "io": {
+                "io": 0
+            },
+            "jeep": {
+                "jeep": 0
+            },
+            "l200": {
+                "l200": 0
+            },
+            "l300": {
+                "l300": 0
+            },
+            "l400": {
+                "l400": 0
+            },
+            "libero": {
+                "libero": 0
+            },
+            "minica": {
+                "minica": 0
+            },
+            "montero": {
+                "montero": 0
+            },
+            "navita": {
+                "navita": 0
+            },
+            "outlander sport": {
+                "outlander sport": 0
+            },
+            "pajero pinin": {
+                "pajero pinin": 0
+            },
+            "santamo": {
+                "santamo": 0
+            },
+            "savrin": {
+                "savrin": 0
+            },
+            "sigma": {
+                "sigma": 0
+            },
+            "space gear": {
+                "space gear": 0
+            },
+            "space wagon": {
+                "space wagon": 0
+            },
+            "starion": {
+                "starion": 0
+            },
+            "veryca": {
+                "veryca": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "mini": {
+        "official_brand": "Mini",
+        "core_models": [
+            "Cooper",
+            "Countryman",
+            "Clubman",
+            "Convertible",
+            "One",
+            "Aceman",
+            "Khác",
+            "3 Door",
+            "5 Door",
+            "JCW"
+        ],
+        "trims": {
+            "3 door": {
+                "3 door cooper s 3 cửa": 2000.0,
+                "3 door john cooper works 3 doors": 2000.0
+            },
+            "5 door": {
+                "5 door cooper s 5 cửa": 2000.0
+            },
+            "jcw": {
+                "jcw jcw clubman": 2000.0,
+                "jcw jcw countryman": 2000.0
+            },
+            "countryman": {
+                "countryman s all4": 2000.0,
+                "countryman s all4 jcw": 2000.0
+            },
+            "cooper": {
+                "cooper": 0
+            },
+            "clubman": {
+                "clubman": 0
+            },
+            "convertible": {
+                "convertible": 0
+            },
+            "one": {
+                "one": 0
+            },
+            "aceman": {
+                "aceman": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "bentley": {
+        "official_brand": "Bentley",
+        "core_models": [
+            "Flying Spur",
+            "Continental",
+            "Mulsanne",
+            "Bentayga",
+            "Arnage",
+            "Azure",
+            "Brooklands",
+            "Turbo",
+            "Khác"
+        ],
+        "trims": {
+            "flying spur": {
+                "flying spur v8": 19000.0
+            },
+            "bentayga": {
+                "bentayga bentayga v8": 19000.0
+            },
+            "continental": {
+                "continental gt v8": 18000.0,
+                "continental gt s": 19000.0,
+                "continental gt azure": 22000.0
+            },
+            "mulsanne": {
+                "mulsanne": 0
+            },
+            "arnage": {
+                "arnage": 0
+            },
+            "azure": {
+                "azure": 0
+            },
+            "brooklands": {
+                "brooklands": 0
+            },
+            "turbo": {
+                "turbo": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "aston martin": {
+        "official_brand": "Aston Martin",
+        "core_models": [
+            "DBX"
+        ],
+        "trims": {
+            "dbx": {
+                "dbx v8": 16000.0,
+                "dbx 707": 21000.0
+            }
+        }
+    },
+    "lotus": {
+        "official_brand": "Lotus",
+        "core_models": [
+            "Emira"
+        ],
+        "trims": {
+            "emira": {
+                "emira turbo": 7000.0,
+                "emira v6 se racing line": 12000.0
+            }
+        }
+    },
+    "gac": {
+        "official_brand": "GAC",
+        "core_models": [
+            "GS8",
+            "M8",
+            "M6 Pro"
+        ],
+        "trims": {
+            "gs8": {
+                "gs8 gl": 1000.0,
+                "gs8 gt": 1000.0
+            },
+            "m8": {
+                "m8 gl master": 1000.0,
+                "m8 gt master": 1000.0,
+                "m8 gx master": 2000.0
+            },
+            "m6 pro": {
+                "m6 pro gs": 699.0,
+                "m6 pro gl": 799.0
+            }
+        }
+    },
+    "jeep": {
+        "official_brand": "Jeep",
+        "core_models": [
+            "Wrangler",
+            "Grand cherokee",
+            "Gladiator",
+            "A2",
+            "CJ",
+            "Cherokee",
+            "Compass",
+            "Grand Wagoneer",
+            "Liberty",
+            "Khác",
+            "Grand Cherokee L"
+        ],
+        "trims": {
+            "wrangler": {
+                "wrangler willys/islander": 3000.0,
+                "wrangler sahara overland": 3000.0,
+                "wrangler sahara 80th": 3000.0,
+                "wrangler sahara altitude": 3000.0,
+                "wrangler rubicon": 3000.0,
+                "wrangler rubicon 2 cửa": 3000.0,
+                "wrangler rubicon (4 cửa)": 3000.0,
+                "wrangler sahara": 3000.0,
+                "wrangler rubicon (2 cửa)": 4000.0,
+                "wrangler sport": 2000.0
+            },
+            "gladiator": {
+                "gladiator sport": 3000.0,
+                "gladiator rubicon": 4000.0
+            },
+            "grand cherokee l": {
+                "grand cherokee l limited": 6000.0,
+                "grand cherokee l summit reserved": 6000.0
+            },
+            "grand cherokee": {
+                "grand cherokee": 0
+            },
+            "a2": {
+                "a2": 0
+            },
+            "cj": {
+                "cj": 0
+            },
+            "cherokee": {
+                "cherokee": 0
+            },
+            "compass": {
+                "compass": 0
+            },
+            "grand wagoneer": {
+                "grand wagoneer": 0
+            },
+            "liberty": {
+                "liberty": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "skoda": {
+        "official_brand": "Skoda",
+        "core_models": [
+            "Karoq",
+            "Kodiaq",
+            "Kushaq",
+            "Slavia"
+        ],
+        "trims": {
+            "karoq": {
+                "karoq ambition": 999.0,
+                "karoq style": 1000.0,
+                "karoq premium": 1000.0,
+                "karoq sportline": 1000.0
+            },
+            "kodiaq": {
+                "kodiaq ambition 1.4 tsi": 1000.0,
+                "kodiaq style 2.0 tsi": 1000.0,
+                "kodiaq premium": 1000.0,
+                "kodiaq sportline": 1000.0
+            },
+            "kushaq": {
+                "kushaq ambition": 599.0,
+                "kushaq style": 649.0
+            },
+            "slavia": {
+                "slavia active": 468.0,
+                "slavia ambition": 528.0,
+                "slavia style": 568.0
+            }
+        }
+    },
+    "maserati": {
+        "official_brand": "Maserati",
+        "core_models": [
+            "Levante",
+            "Ghibli",
+            "Quattroporte",
+            "Grecale",
+            "GranTurismo",
+            "Grecale Folgore",
+            "GranCabrio Folgore"
+        ],
+        "trims": {
+            "levante": {
+                "levante le350al21": 5000.0,
+                "levante le350as21": 5000.0
+            },
+            "ghibli": {
+                "ghibli ghibli gh330rs21": 5000.0,
+                "ghibli gransport gh350rs21": 6000.0,
+                "ghibli trofeo gh580rs21": 11000.0
+            },
+            "quattroporte": {
+                "quattroporte qp350rl 21": 6000.0
+            },
+            "grecale": {
+                "grecale gt": 4000.0,
+                "grecale modena": 5000.0,
+                "grecale trofeo": 7000.0
+            },
+            "granturismo": {
+                "granturismo modena": 9000.0
+            },
+            "grecale folgore": {
+                "grecale folgore grecale folgore": 5000.0
+            },
+            "grancabrio folgore": {
+                "grancabrio folgore grancabrio folgore": 13000.0
+            }
+        }
+    },
+    "byd": {
+        "official_brand": "BYD",
+        "core_models": [
+            "Sealion 6",
+            "Atto 3",
+            "Atto 2",
+            "Seal",
+            "M6",
+            "Dolphin",
+            "F0",
+            "G3",
+            "Han",
+            "M9",
+            "Seal 5",
+            "Sealion 8",
+            "Tang",
+            "Khác"
+        ],
+        "trims": {
+            "atto 3": {
+                "atto 3 dynamic": 766.0,
+                "atto 3 premium": 886.0
+            },
+            "seal": {
+                "seal advanced": 1000.0,
+                "seal performance": 1000.0
+            },
+            "dolphin": {
+                "dolphin glx": 569.0
+            },
+            "m6": {
+                "m6 m6": 756.0
+            },
+            "han": {
+                "han performance": 1000.0
+            },
+            "sealion 6": {
+                "sealion 6 dynamic": 799.0,
+                "sealion 6 premium": 899.0
+            },
+            "sealion 8": {
+                "sealion 8 performance": 1000.0
+            },
+            "atto 2": {
+                "atto 2 atto 2": 669.0
+            },
+            "seal 5": {
+                "seal 5 md-i": 696.0
+            },
+            "m9": {
+                "m9 advanced": 1000.0,
+                "m9 premium": 2000.0
+            },
+            "f0": {
+                "f0": 0
+            },
+            "g3": {
+                "g3": 0
+            },
+            "tang": {
+                "tang": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "subaru": {
+        "official_brand": "Subaru",
+        "core_models": [
+            "Forester",
+            "Outback",
+            "Crosstrek",
+            "BRZ",
+            "WRX",
+            "XV",
+            "Dex",
+            "Impreza",
+            "Legacy",
+            "Leone",
+            "Levorg",
+            "Tribeca",
+            "Tutto",
+            "Khác",
+            "BR-Z"
+        ],
+        "trims": {
+            "forester": {
+                "forester 2.0 i-l": 969.0,
+                "forester 2.0 i-s": 1000.0,
+                "forester 2.0 i-s eyesight": 1000.0,
+                "forester 2.0 i-l eyesight": 1000.0,
+                "forester 2.5 i-l eyesight": 1000.0,
+                "forester 2.5 i-s eyesight": 1000.0
+            },
+            "outback": {
+                "outback 2.5 i-touring eyesight": 2000.0
+            },
+            "br-z": {
+                "br-z br-z": 1000.0
+            },
+            "wrx": {
+                "wrx 2.4 cvt eyesight": 2000.0
+            },
+            "crosstrek": {
+                "crosstrek 2.0 i-s eyesight": 1000.0,
+                "crosstrek 2.0 i-s eyesight e-boxer hybrid": 1000.0
+            },
+            "brz": {
+                "brz": 0
+            },
+            "xv": {
+                "xv": 0
+            },
+            "dex": {
+                "dex": 0
+            },
+            "impreza": {
+                "impreza": 0
+            },
+            "legacy": {
+                "legacy": 0
+            },
+            "leone": {
+                "leone": 0
+            },
+            "levorg": {
+                "levorg": 0
+            },
+            "tribeca": {
+                "tribeca": 0
+            },
+            "tutto": {
+                "tutto": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "nissan": {
+        "official_brand": "Nissan",
+        "core_models": [
+            "Navara",
+            "X trail",
+            "Sunny",
+            "Terra",
+            "Almera",
+            "Teana",
+            "Kicks",
+            "Juke",
+            "Bluebird",
+            "Tiida",
+            "Murano",
+            "Terrano",
+            "100NX",
+            "200SX",
+            "240SX",
+            "300ZX",
+            "350Z",
+            "370Z",
+            "Altima",
+            "Armada",
+            "Avenir",
+            "Bassara",
+            "Cedric",
+            "Cefiro",
+            "Cima",
+            "Elgrand",
+            "Frontier",
+            "Gloria",
+            "Grand livina",
+            "GT R",
+            "Langley",
+            "Largo",
+            "Laurel",
+            "Leaf",
+            "Liberty",
+            "Livina",
+            "Maxima",
+            "Micra",
+            "Moco",
+            "NV",
+            "Pathfinder",
+            "Patrol",
+            "Pick up",
+            "Pixo",
+            "Prairie",
+            "Presage",
+            "Presea",
+            "President",
+            "Primastar",
+            "Primera",
+            "Pulsar",
+            "Qashqai",
+            "Quest",
+            "Rasheen",
+            "Rogue",
+            "Safari",
+            "Sentra",
+            "Serena",
+            "Silvia",
+            "Skyline",
+            "Stagea",
+            "Stanza",
+            "Tino",
+            "Urvan",
+            "Vanette",
+            "Versa",
+            "Wingroad",
+            "X Terra",
+            "Khác"
+        ],
+        "trims": {
+            "navara": {
+                "navara 2wd tiêu chuẩn": 748.0,
+                "navara 2wd cao cấp": 845.0,
+                "navara 4wd cao cấp": 945.0,
+                "navara pro4x": 960.0,
+                "navara el 2wd": 685.0,
+                "navara el 2wd nâng cấp": 699.0,
+                "navara vl 4wd": 936.0
+            },
+            "almera": {
+                "almera e": 469.0,
+                "almera el": 489.0,
+                "almera vl": 569.0,
+                "almera cvt": 539.0,
+                "almera cvt cao cấp": 595.0,
+                "almera v": 529.0
+            },
+            "kicks": {
+                "kicks e": 789.0,
+                "kicks v": 858.0
+            },
+            "x trail": {
+                "x trail": 0
+            },
+            "sunny": {
+                "sunny": 0
+            },
+            "terra": {
+                "terra": 0
+            },
+            "teana": {
+                "teana": 0
+            },
+            "juke": {
+                "juke": 0
+            },
+            "bluebird": {
+                "bluebird": 0
+            },
+            "tiida": {
+                "tiida": 0
+            },
+            "murano": {
+                "murano": 0
+            },
+            "terrano": {
+                "terrano": 0
+            },
+            "100nx": {
+                "100nx": 0
+            },
+            "200sx": {
+                "200sx": 0
+            },
+            "240sx": {
+                "240sx": 0
+            },
+            "300zx": {
+                "300zx": 0
+            },
+            "350z": {
+                "350z": 0
+            },
+            "370z": {
+                "370z": 0
+            },
+            "altima": {
+                "altima": 0
+            },
+            "armada": {
+                "armada": 0
+            },
+            "avenir": {
+                "avenir": 0
+            },
+            "bassara": {
+                "bassara": 0
+            },
+            "cedric": {
+                "cedric": 0
+            },
+            "cefiro": {
+                "cefiro": 0
+            },
+            "cima": {
+                "cima": 0
+            },
+            "elgrand": {
+                "elgrand": 0
+            },
+            "frontier": {
+                "frontier": 0
+            },
+            "gloria": {
+                "gloria": 0
+            },
+            "grand livina": {
+                "grand livina": 0
+            },
+            "gt r": {
+                "gt r": 0
+            },
+            "langley": {
+                "langley": 0
+            },
+            "largo": {
+                "largo": 0
+            },
+            "laurel": {
+                "laurel": 0
+            },
+            "leaf": {
+                "leaf": 0
+            },
+            "liberty": {
+                "liberty": 0
+            },
+            "livina": {
+                "livina": 0
+            },
+            "maxima": {
+                "maxima": 0
+            },
+            "micra": {
+                "micra": 0
+            },
+            "moco": {
+                "moco": 0
+            },
+            "nv": {
+                "nv": 0
+            },
+            "pathfinder": {
+                "pathfinder": 0
+            },
+            "patrol": {
+                "patrol": 0
+            },
+            "pick up": {
+                "pick up": 0
+            },
+            "pixo": {
+                "pixo": 0
+            },
+            "prairie": {
+                "prairie": 0
+            },
+            "presage": {
+                "presage": 0
+            },
+            "presea": {
+                "presea": 0
+            },
+            "president": {
+                "president": 0
+            },
+            "primastar": {
+                "primastar": 0
+            },
+            "primera": {
+                "primera": 0
+            },
+            "pulsar": {
+                "pulsar": 0
+            },
+            "qashqai": {
+                "qashqai": 0
+            },
+            "quest": {
+                "quest": 0
+            },
+            "rasheen": {
+                "rasheen": 0
+            },
+            "rogue": {
+                "rogue": 0
+            },
+            "safari": {
+                "safari": 0
+            },
+            "sentra": {
+                "sentra": 0
+            },
+            "serena": {
+                "serena": 0
+            },
+            "silvia": {
+                "silvia": 0
+            },
+            "skyline": {
+                "skyline": 0
+            },
+            "stagea": {
+                "stagea": 0
+            },
+            "stanza": {
+                "stanza": 0
+            },
+            "tino": {
+                "tino": 0
+            },
+            "urvan": {
+                "urvan": 0
+            },
+            "vanette": {
+                "vanette": 0
+            },
+            "versa": {
+                "versa": 0
+            },
+            "wingroad": {
+                "wingroad": 0
+            },
+            "x terra": {
+                "x terra": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "aion": {
+        "official_brand": "Aion",
+        "core_models": [
+            "Y Plus",
+            "ES"
+        ],
+        "trims": {
+            "y plus": {
+                "y plus 2024": 888.0
+            },
+            "es": {
+                "es es 2024": 788.0
+            }
+        }
+    },
+    "mazda": {
+        "official_brand": "Mazda",
+        "core_models": [
+            "3",
+            "CX5",
+            "2",
+            "CX8",
+            "6",
+            "CX3",
+            "BT50",
+            "CX 30",
+            "626",
+            "121",
+            "323",
+            "323F",
+            "5",
+            "929",
+            "Atenza",
+            "AZ",
+            "B series",
+            "Bongo Friendee",
+            "Carol",
+            "Cronos",
+            "CX 90",
+            "CX7",
+            "CX9",
+            "Eunos",
+            "Familia",
+            "Millenia",
+            "MPV",
+            "MX 3",
+            "MX 5",
+            "MX 6",
+            "Pickup",
+            "Premacy",
+            "RX 7",
+            "RX 8",
+            "Tribute",
+            "Xedos 9",
+            "Khác",
+            "Mazda2",
+            "CX-3",
+            "Mazda3",
+            "Mazda6",
+            "CX-30",
+            "CX-5",
+            "CX-8",
+            "BT-50"
+        ],
+        "trims": {
+            "mazda2": {
+                "mazda2 1.5 at": 418.0,
+                "mazda2 1.5 luxury": 494.0,
+                "mazda2 sport 1.5 luxury": 537.0,
+                "mazda2 1.5 premium": 508.0,
+                "mazda2 sport 1.5 premium": 544.0,
+                "mazda2 1.5 deluxe": 459.0
+            },
+            "cx-3": {
+                "cx-3 1.5 deluxe": 579.0,
+                "cx-3 1.5 luxury": 619.0,
+                "cx-3 1.5 premium": 659.0,
+                "cx-3 1.5 at": 549.0
+            },
+            "mazda3": {
+                "mazda3 1.5 deluxe": 599.0,
+                "mazda3 1.5 luxury": 644.0,
+                "mazda3 sport 1.5 luxury": 659.0,
+                "mazda3 sport 1.5 premium": 719.0,
+                "mazda3 1.5 premium": 719.0,
+                "mazda3 1.5 signature": 739.0
+            },
+            "mazda6": {
+                "mazda6 2.0 luxury": 769.0,
+                "mazda6 2.0 premium gtccc": 790.0,
+                "mazda6 2.0 premium": 809.0,
+                "mazda6 2.5 signature premium gtccc": 874.0,
+                "mazda6 2.5 signature (2024)": 899.0
+            },
+            "cx-30": {
+                "cx-30 2.0 luxury": 699.0,
+                "cx-30 2.0 premium": 749.0
+            },
+            "cx-5": {
+                "cx-5 2.0 deluxe": 699.0,
+                "cx-5 2.0 luxury": 789.0,
+                "cx-5 2.0 premium": 829.0,
+                "cx-5 2.5 signature premium awd": 1000.0,
+                "cx-5 2.0 premium sport": 849.0,
+                "cx-5 2.0 premium exclusive": 869.0,
+                "cx-5 2.5 signature sport": 959.0,
+                "cx-5 2.5 signature exclusive": 979.0,
+                "cx-5 2.0 deluxe tùy chọn": 749.0,
+                "cx-5 2.0 premium active": 829.0
+            },
+            "cx-8": {
+                "cx-8 2.5 luxury": 969.0,
+                "cx-8 2.5 premium": 1000.0,
+                "cx-8 2.5 premium awd": 1000.0,
+                "cx-8 2.5 premium awd (6s)": 1000.0,
+                "cx-8 2.5 signature awd": 1000.0
+            },
+            "bt-50": {
+                "bt-50 1.9 mt 4x2": 554.0,
+                "bt-50 1.9 at 4x2": 614.0
+            },
+            "3": {
+                "3": 0
+            },
+            "cx5": {
+                "cx5": 0
+            },
+            "2": {
+                "2": 0
+            },
+            "cx8": {
+                "cx8": 0
+            },
+            "6": {
+                "6": 0
+            },
+            "cx3": {
+                "cx3": 0
+            },
+            "bt50": {
+                "bt50": 0
+            },
+            "cx 30": {
+                "cx 30": 0
+            },
+            "626": {
+                "626": 0
+            },
+            "121": {
+                "121": 0
+            },
+            "323": {
+                "323": 0
+            },
+            "323f": {
+                "323f": 0
+            },
+            "5": {
+                "5": 0
+            },
+            "929": {
+                "929": 0
+            },
+            "atenza": {
+                "atenza": 0
+            },
+            "az": {
+                "az": 0
+            },
+            "b series": {
+                "b series": 0
+            },
+            "bongo friendee": {
+                "bongo friendee": 0
+            },
+            "carol": {
+                "carol": 0
+            },
+            "cronos": {
+                "cronos": 0
+            },
+            "cx 90": {
+                "cx 90": 0
+            },
+            "cx7": {
+                "cx7": 0
+            },
+            "cx9": {
+                "cx9": 0
+            },
+            "eunos": {
+                "eunos": 0
+            },
+            "familia": {
+                "familia": 0
+            },
+            "millenia": {
+                "millenia": 0
+            },
+            "mpv": {
+                "mpv": 0
+            },
+            "mx 3": {
+                "mx 3": 0
+            },
+            "mx 5": {
+                "mx 5": 0
+            },
+            "mx 6": {
+                "mx 6": 0
+            },
+            "pickup": {
+                "pickup": 0
+            },
+            "premacy": {
+                "premacy": 0
+            },
+            "rx 7": {
+                "rx 7": 0
+            },
+            "rx 8": {
+                "rx 8": 0
+            },
+            "tribute": {
+                "tribute": 0
+            },
+            "xedos 9": {
+                "xedos 9": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "vinfast": {
+        "official_brand": "VinFast",
+        "core_models": [
+            "VF8",
+            "Lux A 2.0",
+            "VF3",
+            "Fadil",
+            "VF5",
+            "VF6",
+            "EC Van",
+            "Herio Green",
+            "Limo Green",
+            "Lux SA 2.0",
+            "Minio Green",
+            "Nerio Green",
+            "President",
+            "VF e34",
+            "VF MPV 7",
+            "VF7",
+            "VF9",
+            "Lux A2.0",
+            "Lux SA2.0",
+            "VF 8",
+            "VF 5",
+            "VF 9",
+            "VF 6",
+            "VF 7",
+            "VF 3"
+        ],
+        "trims": {
+            "fadil": {
+                "fadil tiêu chuẩn": 425.0,
+                "fadil nâng cao": 459.0,
+                "fadil cao cấp": 499.0
+            },
+            "lux a2.0": {
+                "lux a2.0 tiêu chuẩn": 1000.0,
+                "lux a2.0 nâng cao": 1000.0,
+                "lux a2.0 cao cấp": 1000.0
+            },
+            "lux sa2.0": {
+                "lux sa2.0 tiêu chuẩn": 1000.0,
+                "lux sa2.0 nâng cao": 1000.0,
+                "lux sa2.0 cao cấp": 1000.0
+            },
+            "president": {
+                "president president": 4000.0
+            },
+            "vf e34": {
+                "vf e34 tiêu chuẩn": 721.0
+            },
+            "vf 8": {
+                "vf 8 vf8 eco": 1000.0,
+                "vf 8 vf8 plus": 1000.0,
+                "vf 8 vf 8 eco (pin catl)": 1000.0,
+                "vf 8 vf 8 plus (pin catl)": 1000.0
+            },
+            "vf 5": {
+                "vf 5 plus": 529.0
+            },
+            "vf 9": {
+                "vf 9 eco (pin catl)": 1000.0,
+                "vf 9 plus (pin catl)": 1000.0
+            },
+            "vf 6": {
+                "vf 6 eco": 689.0,
+                "vf 6 plus": 749.0
+            },
+            "vf 7": {
+                "vf 7 eco": 799.0,
+                "vf 7 plus (trần thép)": 949.0,
+                "vf 7 plus (trần kính)": 969.0
+            },
+            "vf 3": {
+                "vf 3 kèm pin": 302.0
+            },
+            "nerio green": {
+                "nerio green tiêu chuẩn": 668.0
+            },
+            "limo green": {
+                "limo green tiêu chuẩn (gồm pin)": 749.0
+            },
+            "herio green": {
+                "herio green tiêu chuẩn": 499.0
+            },
+            "ec van": {
+                "ec van tiêu chuẩn": 285.0
+            },
+            "vf mpv 7": {
+                "vf mpv 7 tiêu chuẩn (gồm pin)": 819.0
+            },
+            "minio green": {
+                "minio green kèm pin": 269.0
+            },
+            "vf8": {
+                "vf8": 0
+            },
+            "lux a 2.0": {
+                "lux a 2.0": 0
+            },
+            "vf3": {
+                "vf3": 0
+            },
+            "vf5": {
+                "vf5": 0
+            },
+            "vf6": {
+                "vf6": 0
+            },
+            "lux sa 2.0": {
+                "lux sa 2.0": 0
+            },
+            "vf7": {
+                "vf7": 0
+            },
+            "vf9": {
+                "vf9": 0
+            }
+        }
+    },
+    "toyota": {
+        "official_brand": "Toyota",
+        "core_models": [
+            "Vios",
+            "Fortuner",
+            "Innova",
+            "Camry",
+            "Corolla Cross",
+            "Land Cruiser",
+            "Corolla altis",
+            "Prado",
+            "Yaris",
+            "Veloz",
+            "Yaris Cross",
+            "Raize",
+            "Alphard",
+            "Wigo",
+            "4 Runner",
+            "86",
+            "Allion",
+            "Altezza",
+            "Aristo",
+            "Aurion",
+            "Avalon",
+            "Avanza",
+            "Avensis",
+            "Aygo",
+            "Blizzard",
+            "Brevis",
+            "C-HR",
+            "Caldina",
+            "Cami",
+            "Carina",
+            "Celica",
+            "Century",
+            "Chaser",
+            "Corolla",
+            "Corolla verso",
+            "Corona",
+            "Corsa",
+            "Cressida",
+            "Cresta",
+            "Crown",
+            "Cynos",
+            "Estima",
+            "Fj cruiser",
+            "Gaia",
+            "Granvia",
+            "Harrier",
+            "Hiace",
+            "Highlander",
+            "Hilux",
+            "Ipsum",
+            "IQ",
+            "Liteace",
+            "Mark II",
+            "Matrix",
+            "Mega cruiser",
+            "MR 2",
+            "Picnic",
+            "Platz",
+            "Premio",
+            "Previa",
+            "Prius",
+            "Progres",
+            "Pronard",
+            "Publica",
+            "Raum",
+            "RAV4",
+            "Rush",
+            "Scepter",
+            "Sequoia",
+            "Sera",
+            "Sienna",
+            "Soarer",
+            "Solara",
+            "Starlet",
+            "Supra",
+            "Tacoma",
+            "Tercel",
+            "Townace",
+            "Tundra",
+            "Van",
+            "Venza",
+            "Verossa",
+            "Verso",
+            "Vista",
+            "Windom",
+            "Wish",
+            "XA",
+            "Yaris Verso",
+            "Zace",
+            "Khác",
+            "Corolla Altis",
+            "Land Cruiser LC300",
+            "Land Cruiser Prado",
+            "Avanza Premio",
+            "Veloz Cross",
+            "Innova Cross"
+        ],
+        "trims": {
+            "wigo": {
+                "wigo mt": 352.0,
+                "wigo at": 385.0,
+                "wigo e": 360.0,
+                "wigo g": 405.0
+            },
+            "vios": {
+                "vios e mt 3ab": 458.0,
+                "vios e mt": 506.0,
+                "vios e cvt 3ab": 488.0,
+                "vios e cvt": 561.0,
+                "vios g cvt": 545.0,
+                "vios gr-s": 641.0
+            },
+            "corolla altis": {
+                "corolla altis 1.8e (cvt)": 733.0,
+                "corolla altis 1.8g (cvt)": 763.0,
+                "corolla altis 1.8g": 719.0,
+                "corolla altis 1.8v": 765.0,
+                "corolla altis 1.8hv": 860.0,
+                "corolla altis 1.8 g": 725.0,
+                "corolla altis 1.8 v": 780.0,
+                "corolla altis 1.8 hev": 870.0
+            },
+            "camry": {
+                "camry 2.0g": 1000.0,
+                "camry 2.0q": 1000.0,
+                "camry 2.5q": 1000.0,
+                "camry 2.5hv": 1000.0,
+                "camry 2.5hev top": 1000.0,
+                "camry 2.5hev mid": 1000.0
+            },
+            "rush": {
+                "rush s 1.5at": 634.0
+            },
+            "avanza": {
+                "avanza mt": 544.0,
+                "avanza at": 612.0
+            },
+            "innova": {
+                "innova 2.0e": 755.0,
+                "innova 2.0g": 870.0,
+                "innova 2.0g venturer": 885.0,
+                "innova 2.0v": 995.0
+            },
+            "fortuner": {
+                "fortuner 2.4 4x2mt": 995.0,
+                "fortuner 2.4 4x2at": 1000.0,
+                "fortuner 2.7 4x2at": 1000.0,
+                "fortuner legender 2.4 4x2at": 1000.0,
+                "fortuner 2.7 4x4at": 1000.0,
+                "fortuner 2.8 4x4at": 1000.0,
+                "fortuner legender 2.8 4x4at": 1000.0,
+                "fortuner 2.4 4x2 mt": 1000.0,
+                "fortuner 2.4 4x2 at": 1000.0,
+                "fortuner 2.7 4x2 at": 1000.0,
+                "fortuner legender 2.4 4x2 at": 1000.0,
+                "fortuner 2.7 4x4 at": 1000.0,
+                "fortuner 2.8 4x4 at": 1000.0,
+                "fortuner legender 2.8 4x4 at": 1000.0,
+                "fortuner 2.4 at 4x2": 1000.0,
+                "fortuner 2.7 at 4x2": 1000.0,
+                "fortuner legender 2.4 at 4x2": 1000.0,
+                "fortuner 2.7 at 4x4": 1000.0,
+                "fortuner legender 2.8 at 4x4": 1000.0
+            },
+            "granvia": {
+                "granvia granvia": 3000.0
+            },
+            "land cruiser lc300": {
+                "land cruiser lc300 lc300": 4000.0
+            },
+            "land cruiser prado": {
+                "land cruiser prado vx": 2000.0,
+                "land cruiser prado cửa sổ trời đơn": 3000.0,
+                "land cruiser prado cửa sổ trời toàn cảnh": 3000.0
+            },
+            "corolla cross": {
+                "corolla cross 1.8g": 746.0,
+                "corolla cross 1.8v": 846.0,
+                "corolla cross 1.8hv": 936.0,
+                "corolla cross 1.8 v": 820.0,
+                "corolla cross 1.8 hev": 865.0
+            },
+            "hilux": {
+                "hilux 2.4 4x2 mt": 628.0,
+                "hilux 2.4 4x2 at": 706.0,
+                "hilux 2.4 4x4 mt": 668.0,
+                "hilux 2.8 4x4 at adventure": 999.0,
+                "hilux standard 2.8 4x2 mt": 632.0,
+                "hilux pro 2.8 4x2 at": 706.0,
+                "hilux trailhunter 2.8 4x4 at": 903.0
+            },
+            "alphard": {
+                "alphard 3.5": 4000.0,
+                "alphard luxury": 4000.0,
+                "alphard xăng": 4000.0,
+                "alphard hybrid": 4000.0
+            },
+            "yaris": {
+                "yaris 1.5g cvt": 684.0
+            },
+            "raize": {
+                "raize 1.0 turbo": 498.0
+            },
+            "avanza premio": {
+                "avanza premio mt": 558.0,
+                "avanza premio at": 598.0
+            },
+            "veloz cross": {
+                "veloz cross cvt": 638.0,
+                "veloz cross cvt top": 660.0
+            },
+            "yaris cross": {
+                "yaris cross v": 650.0,
+                "yaris cross hev": 728.0
+            },
+            "innova cross": {
+                "innova cross 2.0g": 730.0,
+                "innova cross 2.0v": 825.0,
+                "innova cross 2.0hev": 960.0
+            },
+            "land cruiser": {
+                "land cruiser": 0
+            },
+            "prado": {
+                "prado": 0
+            },
+            "veloz": {
+                "veloz": 0
+            },
+            "4 runner": {
+                "4 runner": 0
+            },
+            "86": {
+                "86": 0
+            },
+            "allion": {
+                "allion": 0
+            },
+            "altezza": {
+                "altezza": 0
+            },
+            "aristo": {
+                "aristo": 0
+            },
+            "aurion": {
+                "aurion": 0
+            },
+            "avalon": {
+                "avalon": 0
+            },
+            "avensis": {
+                "avensis": 0
+            },
+            "aygo": {
+                "aygo": 0
+            },
+            "blizzard": {
+                "blizzard": 0
+            },
+            "brevis": {
+                "brevis": 0
+            },
+            "c-hr": {
+                "c-hr": 0
+            },
+            "caldina": {
+                "caldina": 0
+            },
+            "cami": {
+                "cami": 0
+            },
+            "carina": {
+                "carina": 0
+            },
+            "celica": {
+                "celica": 0
+            },
+            "century": {
+                "century": 0
+            },
+            "chaser": {
+                "chaser": 0
+            },
+            "corolla": {
+                "corolla": 0
+            },
+            "corolla verso": {
+                "corolla verso": 0
+            },
+            "corona": {
+                "corona": 0
+            },
+            "corsa": {
+                "corsa": 0
+            },
+            "cressida": {
+                "cressida": 0
+            },
+            "cresta": {
+                "cresta": 0
+            },
+            "crown": {
+                "crown": 0
+            },
+            "cynos": {
+                "cynos": 0
+            },
+            "estima": {
+                "estima": 0
+            },
+            "fj cruiser": {
+                "fj cruiser": 0
+            },
+            "gaia": {
+                "gaia": 0
+            },
+            "harrier": {
+                "harrier": 0
+            },
+            "hiace": {
+                "hiace": 0
+            },
+            "highlander": {
+                "highlander": 0
+            },
+            "ipsum": {
+                "ipsum": 0
+            },
+            "iq": {
+                "iq": 0
+            },
+            "liteace": {
+                "liteace": 0
+            },
+            "mark ii": {
+                "mark ii": 0
+            },
+            "matrix": {
+                "matrix": 0
+            },
+            "mega cruiser": {
+                "mega cruiser": 0
+            },
+            "mr 2": {
+                "mr 2": 0
+            },
+            "picnic": {
+                "picnic": 0
+            },
+            "platz": {
+                "platz": 0
+            },
+            "premio": {
+                "premio": 0
+            },
+            "previa": {
+                "previa": 0
+            },
+            "prius": {
+                "prius": 0
+            },
+            "progres": {
+                "progres": 0
+            },
+            "pronard": {
+                "pronard": 0
+            },
+            "publica": {
+                "publica": 0
+            },
+            "raum": {
+                "raum": 0
+            },
+            "rav4": {
+                "rav4": 0
+            },
+            "scepter": {
+                "scepter": 0
+            },
+            "sequoia": {
+                "sequoia": 0
+            },
+            "sera": {
+                "sera": 0
+            },
+            "sienna": {
+                "sienna": 0
+            },
+            "soarer": {
+                "soarer": 0
+            },
+            "solara": {
+                "solara": 0
+            },
+            "starlet": {
+                "starlet": 0
+            },
+            "supra": {
+                "supra": 0
+            },
+            "tacoma": {
+                "tacoma": 0
+            },
+            "tercel": {
+                "tercel": 0
+            },
+            "townace": {
+                "townace": 0
+            },
+            "tundra": {
+                "tundra": 0
+            },
+            "van": {
+                "van": 0
+            },
+            "venza": {
+                "venza": 0
+            },
+            "verossa": {
+                "verossa": 0
+            },
+            "verso": {
+                "verso": 0
+            },
+            "vista": {
+                "vista": 0
+            },
+            "windom": {
+                "windom": 0
+            },
+            "wish": {
+                "wish": 0
+            },
+            "xa": {
+                "xa": 0
+            },
+            "yaris verso": {
+                "yaris verso": 0
+            },
+            "zace": {
+                "zace": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "wuling": {
+        "official_brand": "Wuling",
+        "core_models": [
+            "Hongguang Mini EV",
+            "Bingo"
+        ],
+        "trims": {
+            "hongguang mini ev": {
+                "hongguang mini ev nâng cao (pin 9,6 kwh)": 197.0,
+                "hongguang mini ev nâng cao (pin 13,9 kwh)": 231.0
+            },
+            "bingo": {
+                "bingo 333 km": 399.0,
+                "bingo 410 km": 469.0,
+                "bingo tiêu chuẩn": 399.0,
+                "bingo plus": 469.0,
+                "bingo max": 499.0
+            }
+        }
+    },
+    "haval": {
+        "official_brand": "Haval",
+        "core_models": [
+            "H6",
+            "Jolion"
+        ],
+        "trims": {
+            "h6": {
+                "h6 hev": 986.0
+            },
+            "jolion": {
+                "jolion pro": 669.0,
+                "jolion ultra": 719.0
+            }
+        }
+    },
+    "ram": {
+        "official_brand": "Ram",
+        "core_models": [
+            ""
+        ],
+        "trims": {
+            "": {
+                "laramie": 5000.0,
+                "rebel": 3000.0,
+                "rho": 5000.0
+            }
+        }
+    },
+    "kia": {
+        "official_brand": "Kia",
+        "core_models": [
+            "Morning",
+            "Carnival",
+            "Cerato",
+            "Sorento",
+            "K3",
+            "Sonet",
+            "Seltos",
+            "Sedona",
+            "Carens",
+            "Sportage",
+            "Soluto",
+            "Rio",
+            "Avella",
+            "Bongo",
+            "Cadenza",
+            "Clarus",
+            "Concord",
+            "Credos",
+            "Elan",
+            "Enterprise",
+            "Forte",
+            "Frontier",
+            "Jeep",
+            "Joice",
+            "K2700",
+            "K3000S",
+            "K4",
+            "K5",
+            "K7",
+            "K8",
+            "Lotze",
+            "Magentis",
+            "Opirus",
+            "Optima",
+            "Picanto",
+            "Potentia",
+            "Pregio",
+            "Pride",
+            "Quoris",
+            "Ray",
+            "Retona",
+            "Roadster",
+            "Rondo",
+            "Sephia",
+            "Shuma",
+            "Soul",
+            "Spectra",
+            "Visto",
+            "X Trek",
+            "Khác"
+        ],
+        "trims": {
+            "morning": {
+                "morning gt line": 439.0,
+                "morning x line": 439.0,
+                "morning mt": 349.0,
+                "morning at": 371.0,
+                "morning premium": 399.0,
+                "morning x-line": 424.0,
+                "morning gt-line": 424.0
+            },
+            "soluto": {
+                "soluto mt": 386.0,
+                "soluto mt deluxe": 418.0,
+                "soluto at deluxe": 439.0,
+                "soluto at luxury": 449.0
+            },
+            "cerato": {
+                "cerato 1.6 mt": 544.0,
+                "cerato 1.6 at deluxe": 584.0,
+                "cerato 1.6 at luxury": 639.0,
+                "cerato 2.0 at premium": 685.0
+            },
+            "optima": {
+                "optima 2.0 gat luxury": 759.0,
+                "optima 2.4 gat premium": 919.0
+            },
+            "sorento": {
+                "sorento 2.2d luxury": 1000.0,
+                "sorento 2.5g premium": 1000.0,
+                "sorento 2.5g signature awd (7 chỗ)": 1000.0,
+                "sorento 2.5g signature awd (6 chỗ)": 1000.0,
+                "sorento 2.2d signature awd (6 chỗ)": 1000.0,
+                "sorento 2.2d premium": 1000.0,
+                "sorento 2.2d signature awd (7 chỗ)": 1000.0,
+                "sorento 2.2d luxury 2wd": 899.0,
+                "sorento 2.5g premium 2wd": 977.0,
+                "sorento 2.2d premium awd": 999.0,
+                "sorento 2.5g signature awd (6 chỗ) nội thất nâu": 1000.0,
+                "sorento 2.5g signature awd (7 chỗ) nội thất nâu": 1000.0,
+                "sorento 2.2d signature awd (7 chỗ) nội thất nâu": 1000.0,
+                "sorento 2.2d signature awd (7 chỗ) nội thất đen": 1000.0,
+                "sorento 2.5g signature awd (7 chỗ) nội thất đen": 1000.0,
+                "sorento 1.6 hybrid premium (nội thất đen)": 1000.0,
+                "sorento 2.2d signature awd (6 chỗ) nội thất nâu": 1000.0,
+                "sorento 1.6 plug-in hybrid premium (nội thất đen)": 1000.0,
+                "sorento 1.6 hybrid signature (nội thất đen)": 1000.0,
+                "sorento 1.6 plug-in hybrid signature (nội thất nâu)": 1000.0,
+                "sorento 2.5g signature fwd": 1000.0,
+                "sorento 2.5g signature awd": 1000.0,
+                "sorento 2.2d signature fwd": 1000.0,
+                "sorento 2.2d signature awd": 1000.0,
+                "sorento 1.6 hybrid premium": 1000.0,
+                "sorento 1.6 turbo hev signature awd": 0,
+                "sorento 1.6 turbo hev signature fwd": 0
+            },
+            "rondo": {
+                "rondo gmt": 559.0,
+                "rondo gat": 655.0
+            },
+            "quoris": {
+                "quoris 3.8 at": 2000.0
+            },
+            "k3": {
+                "k3 1.6 mt": 549.0,
+                "k3 1.6 luxury": 579.0,
+                "k3 1.6 premium": 609.0,
+                "k3 2.0 premium": 619.0,
+                "k3 1.6 turbo gt": 714.0
+            },
+            "carnival": {
+                "carnival 2.2d luxury 7 chỗ": 1000.0,
+                "carnival 2.2d luxury 8 chỗ": 1000.0,
+                "carnival 2.2d premium 8 chỗ": 1000.0,
+                "carnival 2.2d premium 7 chỗ": 1000.0,
+                "carnival 2.2d signature 7 ghế (không cửa sổ trời)": 1000.0,
+                "carnival 2.2d signature 7 ghế (clone)": 1000.0,
+                "carnival 3.5g signature 7 chỗ": 1000.0,
+                "carnival 2.2d signature 7 ghế": 1000.0,
+                "carnival 1.6 turbo hybrid signature 7 chỗ": 1000.0,
+                "carnival 1.6 turbo hybrid signature 7 chỗ-nâu đỏ": 1000.0,
+                "carnival 2.2d luxury 8s": 1000.0,
+                "carnival 2.2d premium 8s": 1000.0,
+                "carnival 2.2d premium 7s": 1000.0,
+                "carnival 1.6 hev premium 7s": 1000.0,
+                "carnival 2.2d signature 7s": 1000.0,
+                "carnival 1.6 hev signature 7s": 1000.0
+            },
+            "sonet": {
+                "sonet 1.5 deluxe": 519.0,
+                "sonet 1.5 luxury": 559.0,
+                "sonet 1.5 premium": 609.0,
+                "sonet 1.5 at": 489.0
+            },
+            "k5": {
+                "k5 2.0 luxury": 859.0,
+                "k5 2.0 premium": 904.0,
+                "k5 2.5 gt-line": 999.0
+            },
+            "sportage": {
+                "sportage 2.0g luxury": 779.0,
+                "sportage 2.0g premium": 819.0,
+                "sportage 2.0g signature (x-line)": 899.0,
+                "sportage 2.0g signature": 919.0,
+                "sportage 2.0d signature (x-line)": 939.0,
+                "sportage 2.0d signature": 939.0,
+                "sportage 1.6 turbo signature awd": 994.0,
+                "sportage 1.6 turbo signature awd (x-line)": 999.0,
+                "sportage 1.6 turbo hev premium": 0,
+                "sportage 1.6 turbo hev signature": 0,
+                "sportage 1.6 turbo hev signature awd": 0
+            },
+            "carens": {
+                "carens 1.5g mt deluxe": 589.0,
+                "carens 1.5g ivt": 634.0,
+                "carens 1.5g ivt (trang bị phanh phụ)": 636.0,
+                "carens 1.5g luxury": 669.0,
+                "carens 1.4t premium": 735.0,
+                "carens 1.4t signature (7 chỗ)": 764.0,
+                "carens 1.4t signature (6 chỗ)": 779.0
+            },
+            "seltos": {
+                "seltos 1.6 at deluxe": 599.0,
+                "seltos 1.4 turbo deluxe": 599.0,
+                "seltos 1.6 at luxury": 629.0,
+                "seltos 1.4 turbo luxury": 639.0,
+                "seltos 1.6 at premium": 689.0,
+                "seltos 1.4 turbo premium": 699.0,
+                "seltos 1.4 turbo x-line": 709.0,
+                "seltos 1.4 turbo gt-line": 719.0,
+                "seltos 1.5 at": 579.0,
+                "seltos 1.5 deluxe": 599.0,
+                "seltos 1.5 turbo deluxe": 619.0,
+                "seltos 1.5 luxury": 645.0,
+                "seltos 1.5 turbo luxury": 665.0,
+                "seltos 1.5 premium": 699.0,
+                "seltos 1.5 turbo gt line": 799.0
+            },
+            "sedona": {
+                "sedona": 0
+            },
+            "rio": {
+                "rio": 0
+            },
+            "avella": {
+                "avella": 0
+            },
+            "bongo": {
+                "bongo": 0
+            },
+            "cadenza": {
+                "cadenza": 0
+            },
+            "clarus": {
+                "clarus": 0
+            },
+            "concord": {
+                "concord": 0
+            },
+            "credos": {
+                "credos": 0
+            },
+            "elan": {
+                "elan": 0
+            },
+            "enterprise": {
+                "enterprise": 0
+            },
+            "forte": {
+                "forte": 0
+            },
+            "frontier": {
+                "frontier": 0
+            },
+            "jeep": {
+                "jeep": 0
+            },
+            "joice": {
+                "joice": 0
+            },
+            "k2700": {
+                "k2700": 0
+            },
+            "k3000s": {
+                "k3000s": 0
+            },
+            "k4": {
+                "k4": 0
+            },
+            "k7": {
+                "k7": 0
+            },
+            "k8": {
+                "k8": 0
+            },
+            "lotze": {
+                "lotze": 0
+            },
+            "magentis": {
+                "magentis": 0
+            },
+            "opirus": {
+                "opirus": 0
+            },
+            "picanto": {
+                "picanto": 0
+            },
+            "potentia": {
+                "potentia": 0
+            },
+            "pregio": {
+                "pregio": 0
+            },
+            "pride": {
+                "pride": 0
+            },
+            "ray": {
+                "ray": 0
+            },
+            "retona": {
+                "retona": 0
+            },
+            "roadster": {
+                "roadster": 0
+            },
+            "sephia": {
+                "sephia": 0
+            },
+            "shuma": {
+                "shuma": 0
+            },
+            "soul": {
+                "soul": 0
+            },
+            "spectra": {
+                "spectra": 0
+            },
+            "visto": {
+                "visto": 0
+            },
+            "x trek": {
+                "x trek": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "dongfeng": {
+        "official_brand": "Dongfeng",
+        "core_models": [
+            "Huge",
+            "Box",
+            "Mage"
+        ],
+        "trims": {
+            "huge": {
+                "huge hev premium h2": 1000.0
+            },
+            "box": {
+                "box e1 330km": 499.0,
+                "box e2 330km": 549.0,
+                "box e2 430km": 589.0,
+                "box e3 430km": 629.0
+            },
+            "mage": {
+                "mage ice e2": 699.0,
+                "mage hev e3": 969.0
+            }
+        }
+    },
+    "suzuki": {
+        "official_brand": "Suzuki",
+        "core_models": [
+            "Swift",
+            "XL7",
+            "Super Carry Van",
+            "Ertiga",
+            "Vitara",
+            "Jimny",
+            "Aerio",
+            "Alto",
+            "APV",
+            "Baleno",
+            "Carry",
+            "Celerio",
+            "Ciaz",
+            "Cultis wagon",
+            "Eeco",
+            "Esteem",
+            "Every landy",
+            "Fronx",
+            "Grand vitara",
+            "Kei",
+            "Liana",
+            "Maruti",
+            "Samurai",
+            "SJ",
+            "Super Carry Truck",
+            "SX4",
+            "Twin",
+            "Wagon R+",
+            "X90",
+            "Khác"
+        ],
+        "trims": {
+            "swift": {
+                "swift glx": 560.0,
+                "swift swift mild-hybrid một tone màu": 569.0,
+                "swift swift mild-hybrid hai tone màu": 577.0
+            },
+            "ciaz": {
+                "ciaz 1.4 at": 535.0
+            },
+            "ertiga": {
+                "ertiga mt": 500.0,
+                "ertiga at": 569.0,
+                "ertiga hybrid mt": 539.0,
+                "ertiga hybrid at": 609.0,
+                "ertiga hybrid sport limited": 678.0
+            },
+            "xl7": {
+                "xl7 glx at": 600.0,
+                "xl7 glx at sport limited": 640.0,
+                "xl7 hybrid": 599.0
+            },
+            "jimny": {
+                "jimny jimny tiêu chuẩn": 789.0
+            },
+            "fronx": {
+                "fronx gl": 520.0,
+                "fronx glx": 599.0,
+                "fronx glx plus": 649.0
+            },
+            "super carry van": {
+                "super carry van": 0
+            },
+            "vitara": {
+                "vitara": 0
+            },
+            "aerio": {
+                "aerio": 0
+            },
+            "alto": {
+                "alto": 0
+            },
+            "apv": {
+                "apv": 0
+            },
+            "baleno": {
+                "baleno": 0
+            },
+            "carry": {
+                "carry": 0
+            },
+            "celerio": {
+                "celerio": 0
+            },
+            "cultis wagon": {
+                "cultis wagon": 0
+            },
+            "eeco": {
+                "eeco": 0
+            },
+            "esteem": {
+                "esteem": 0
+            },
+            "every landy": {
+                "every landy": 0
+            },
+            "grand vitara": {
+                "grand vitara": 0
+            },
+            "kei": {
+                "kei": 0
+            },
+            "liana": {
+                "liana": 0
+            },
+            "maruti": {
+                "maruti": 0
+            },
+            "samurai": {
+                "samurai": 0
+            },
+            "sj": {
+                "sj": 0
+            },
+            "super carry truck": {
+                "super carry truck": 0
+            },
+            "sx4": {
+                "sx4": 0
+            },
+            "twin": {
+                "twin": 0
+            },
+            "wagon r+": {
+                "wagon r+": 0
+            },
+            "x90": {
+                "x90": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "honda": {
+        "official_brand": "Honda",
+        "core_models": [
+            "CRV",
+            "City",
+            "Civic",
+            "HRV",
+            "BR V",
+            "Accord",
+            "Brio",
+            "Jazz",
+            "Odyssey",
+            "Capa",
+            "Concerto",
+            "CR X",
+            "CR Z",
+            "Domani",
+            "Element",
+            "FIT",
+            "FR V",
+            "Insight",
+            "Inspire",
+            "Integra",
+            "Legend",
+            "Life",
+            "Mobilo",
+            "NSX",
+            "Passport",
+            "Pilot",
+            "Prelude",
+            "S2000",
+            "Saber",
+            "Shuttle",
+            "Stream",
+            "Today",
+            "Torneo",
+            "Vigor",
+            "Z",
+            "Khác",
+            "HR-V",
+            "CR-V",
+            "Civic Type R",
+            "BR-V"
+        ],
+        "trims": {
+            "city": {
+                "city g": 499.0,
+                "city l": 539.0,
+                "city rs": 569.0
+            },
+            "hr-v": {
+                "hr-v g": 699.0,
+                "hr-v l": 750.0,
+                "hr-v rs": 871.0,
+                "hr-v e:hev rs": 869.0
+            },
+            "cr-v": {
+                "cr-v e": 998.0,
+                "cr-v g": 1000.0,
+                "cr-v l": 1000.0,
+                "cr-v lse": 1000.0,
+                "cr-v l awd": 1000.0,
+                "cr-v e:hev rs": 1000.0,
+                "cr-v e:hev l": 1000.0
+            },
+            "accord": {
+                "accord vtec turbo": 1000.0,
+                "accord 1.5 turbo": 1000.0
+            },
+            "brio": {
+                "brio g": 418.0,
+                "brio rs": 452.0
+            },
+            "civic": {
+                "civic e": 730.0,
+                "civic g": 789.0,
+                "civic rs": 889.0,
+                "civic e:hev rs": 999.0
+            },
+            "civic type r": {
+                "civic type r 2.0 mt": 2000.0
+            },
+            "br-v": {
+                "br-v g": 661.0,
+                "br-v l": 705.0
+            },
+            "crv": {
+                "crv": 0
+            },
+            "hrv": {
+                "hrv": 0
+            },
+            "br v": {
+                "br v": 0
+            },
+            "jazz": {
+                "jazz": 0
+            },
+            "odyssey": {
+                "odyssey": 0
+            },
+            "capa": {
+                "capa": 0
+            },
+            "concerto": {
+                "concerto": 0
+            },
+            "cr x": {
+                "cr x": 0
+            },
+            "cr z": {
+                "cr z": 0
+            },
+            "domani": {
+                "domani": 0
+            },
+            "element": {
+                "element": 0
+            },
+            "fit": {
+                "fit": 0
+            },
+            "fr v": {
+                "fr v": 0
+            },
+            "insight": {
+                "insight": 0
+            },
+            "inspire": {
+                "inspire": 0
+            },
+            "integra": {
+                "integra": 0
+            },
+            "legend": {
+                "legend": 0
+            },
+            "life": {
+                "life": 0
+            },
+            "mobilo": {
+                "mobilo": 0
+            },
+            "nsx": {
+                "nsx": 0
+            },
+            "passport": {
+                "passport": 0
+            },
+            "pilot": {
+                "pilot": 0
+            },
+            "prelude": {
+                "prelude": 0
+            },
+            "s2000": {
+                "s2000": 0
+            },
+            "saber": {
+                "saber": 0
+            },
+            "shuttle": {
+                "shuttle": 0
+            },
+            "stream": {
+                "stream": 0
+            },
+            "today": {
+                "today": 0
+            },
+            "torneo": {
+                "torneo": 0
+            },
+            "vigor": {
+                "vigor": 0
+            },
+            "z": {
+                "z": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "audi": {
+        "official_brand": "Audi",
+        "core_models": [
+            "Q5",
+            "Q7",
+            "A6",
+            "A4",
+            "Q8",
+            "Q3",
+            "A5",
+            "TT",
+            "A8",
+            "A7",
+            "100",
+            "200",
+            "80",
+            "90",
+            "A1",
+            "A2",
+            "A3",
+            "Cabriolet",
+            "Coupe",
+            "E-tron",
+            "E-tron GT",
+            "Q2",
+            "Q6",
+            "Quattro",
+            "R8",
+            "RS2",
+            "RS4",
+            "S5",
+            "S8",
+            "V8",
+            "Khác",
+            "A8L",
+            "e-tron GT",
+            "Q8 e-tron",
+            "Q6 e-tron",
+            "S6"
+        ],
+        "trims": {
+            "a4": {
+                "a4 40 tfsi advanced plus": 1000.0,
+                "a4 40 tfsi advanced": 0,
+                "a4 45 tfsi quattro": 0
+            },
+            "q2": {
+                "q2 35 tfsi s line": 1000.0
+            },
+            "q3": {
+                "q3 35 tfsi sportback s line": 2000.0,
+                "q3 advanced black edition (35 tfsi)": 1000.0
+            },
+            "q5": {
+                "q5 45 tfsi quattro s line": 2000.0,
+                "q5 45 tfsi sportback s line": 2000.0
+            },
+            "q7": {
+                "q7 45 tfsi quattro": 0,
+                "q7 45 tfsi quattro plus": 0,
+                "q7 55 tfsi quattro (2020)": 0,
+                "q7 45 tfsi quattro basic": 3000.0,
+                "q7 45 tfsi quattro s line": 3000.0
+            },
+            "q8": {
+                "q8 55 tfsi quattro": 0,
+                "q8 55 tfsi quattro s line": 4000.0
+            },
+            "a8l": {
+                "a8l 55 tfsi quattro plus": 4000.0
+            },
+            "e-tron gt": {
+                "e-tron gt quattro": 3000.0,
+                "e-tron gt rs e-tron gt": 4000.0
+            },
+            "q8 e-tron": {
+                "q8 e-tron 55 quattro advanced": 3000.0
+            },
+            "a6": {
+                "a6 45 tfsi": 2000.0,
+                "a6 s line 40 tfsi": 2000.0,
+                "a6 s line 2.0 tfsi": 2000.0
+            },
+            "a7": {
+                "a7 55 tfsi quattro": 2000.0
+            },
+            "q6 e-tron": {
+                "q6 e-tron performance": 3000.0
+            },
+            "a5": {
+                "a5 tiêu chuẩn": 2000.0
+            },
+            "s6": {
+                "s6 sportback e-tron": 4000.0
+            },
+            "tt": {
+                "tt": 0
+            },
+            "a8": {
+                "a8": 0
+            },
+            "100": {
+                "100": 0
+            },
+            "200": {
+                "200": 0
+            },
+            "80": {
+                "80": 0
+            },
+            "90": {
+                "90": 0
+            },
+            "a1": {
+                "a1": 0
+            },
+            "a2": {
+                "a2": 0
+            },
+            "a3": {
+                "a3": 0
+            },
+            "cabriolet": {
+                "cabriolet": 0
+            },
+            "coupe": {
+                "coupe": 0
+            },
+            "e-tron": {
+                "e-tron": 0
+            },
+            "q6": {
+                "q6": 0
+            },
+            "quattro": {
+                "quattro": 0
+            },
+            "r8": {
+                "r8": 0
+            },
+            "rs2": {
+                "rs2": 0
+            },
+            "rs4": {
+                "rs4": 0
+            },
+            "s5": {
+                "s5": 0
+            },
+            "s8": {
+                "s8": 0
+            },
+            "v8": {
+                "v8": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "jaecoo": {
+        "official_brand": "Jaecoo",
+        "core_models": [
+            "J7"
+        ],
+        "trims": {
+            "j7": {
+                "j7 j7 flagship": 739.0,
+                "j7 j7 awd individual": 849.0,
+                "j7 j7 phev flagship": 879.0
+            }
+        }
+    },
+    "mercedes": {
+        "official_brand": "Mercedes-Benz",
+        "core_models": [
+            "A-class",
+            "C-Class",
+            "E-Class",
+            "S-Class",
+            "GLC",
+            "GLB",
+            "GLS",
+            "G-Class",
+            "GT-Coupe",
+            "V-Class",
+            "GLE",
+            "GLA",
+            "EQS",
+            "EQS SUV",
+            "EQB",
+            "EQE SUV",
+            "AMG SL",
+            "Maybach EQS SUV",
+            "G 580"
+        ],
+        "trims": {
+            "a-class": {
+                "a-class a 35 amg 4matic sedan": 2000.0
+            },
+            "c-class": {
+                "c-class c 180 amg": 1000.0,
+                "c-class c 200 exclusive 2.0": 1000.0,
+                "c-class c 300 amg": 1000.0,
+                "c-class c200 avantgarde": 1000.0,
+                "c-class c200 avantgarde plus": 1000.0,
+                "c-class c300 amg": 2000.0,
+                "c-class c300 amg first edition": 2000.0
+            },
+            "e-class": {
+                "e-class e 180": 2000.0,
+                "e-class e 200 exclusive": 2000.0,
+                "e-class e 300 amg": 3000.0,
+                "e-class e 200 avantgarde": 2000.0
+            },
+            "s-class": {
+                "s-class s 450 l": 4000.0,
+                "s-class s 450 l luxury": 4000.0,
+                "s-class maybach s 450 4matic": 7000.0,
+                "s-class s 450 4matic": 5000.0,
+                "s-class s 450 4matic luxury": 5000.0
+            },
+            "glc": {
+                "glc 200": 1000.0,
+                "glc 200 4matic": 2000.0,
+                "glc glc 200": 2000.0,
+                "glc 300 4matic": 2000.0,
+                "glc 300 4matic coupe": 3000.0,
+                "glc glc 300": 2000.0
+            },
+            "glb": {
+                "glb 200 amg": 2000.0,
+                "glb 35 amg 4matic": 2000.0
+            },
+            "gls": {
+                "gls 450 4matic": 5000.0,
+                "gls 450 4 matic": 5000.0,
+                "gls maybach 600": 12000.0
+            },
+            "g-class": {
+                "g-class g 63 amg": 11000.0
+            },
+            "gt-coupe": {
+                "gt-coupe amg gt 53 4matic+": 6000.0,
+                "gt-coupe amg gt r": 11000.0
+            },
+            "v-class": {
+                "v-class v 250 luxury": 2000.0,
+                "v-class v 250 amg": 3000.0
+            },
+            "gle": {
+                "gle 450 4matic": 4000.0,
+                "gle amg 53 4matic+ coupe": 5000.0,
+                "gle 400 e 4matic": 4000.0
+            },
+            "gla": {
+                "gla 45 s 4matic+": 3000.0
+            },
+            "eqs": {
+                "eqs 450+": 4000.0,
+                "eqs 580 4matic": 5000.0
+            },
+            "eqs suv": {
+                "eqs suv 500": 4000.0
+            },
+            "eqb": {
+                "eqb 250": 2000.0,
+                "eqb 250+": 2000.0
+            },
+            "eqe suv": {
+                "eqe suv 500": 3000.0
+            },
+            "amg sl": {
+                "amg sl sl 43": 6000.0,
+                "amg sl sl 63 s e performance": 12000.0
+            },
+            "maybach eqs suv": {
+                "maybach eqs suv 680": 7000.0
+            },
+            "g 580": {
+                "g 580 g 580": 7000.0,
+                "g 580 g 580 edition one": 8000.0
+            }
+        }
+    },
+    "peugeot": {
+        "official_brand": "Peugeot",
+        "core_models": [
+            "3008",
+            "2008",
+            "5008",
+            "408",
+            "208",
+            "508",
+            "107",
+            "203",
+            "205",
+            "206",
+            "207",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "404",
+            "405",
+            "406",
+            "407",
+            "504",
+            "505",
+            "605",
+            "607",
+            "807",
+            "Boxer",
+            "J5",
+            "RCZ",
+            "Traveller",
+            "Khác",
+            ""
+        ],
+        "trims": {
+            "": {
+                "active": 789.0,
+                "gt line": 859.0,
+                "3008 active": 949.0,
+                "3008 allure": 1000.0,
+                "3008 gt": 1000.0,
+                "5008 allure": 1000.0,
+                "5008 gt": 1000.0,
+                "premium": 829.0,
+                "gt": 899.0,
+                "3008 premium": 1000.0,
+                "5008 premium": 1000.0
+            },
+            "traveller": {
+                "traveller traveller luxury": 1000.0,
+                "traveller traveller premium 7s": 1000.0,
+                "traveller traveller premium": 2000.0
+            },
+            "408": {
+                "408 allure": 999.0,
+                "408 premium": 1000.0,
+                "408 gt": 1000.0
+            },
+            "3008": {
+                "3008": 0
+            },
+            "2008": {
+                "2008": 0
+            },
+            "5008": {
+                "5008": 0
+            },
+            "208": {
+                "208": 0
+            },
+            "508": {
+                "508": 0
+            },
+            "107": {
+                "107": 0
+            },
+            "203": {
+                "203": 0
+            },
+            "205": {
+                "205": 0
+            },
+            "206": {
+                "206": 0
+            },
+            "207": {
+                "207": 0
+            },
+            "305": {
+                "305": 0
+            },
+            "306": {
+                "306": 0
+            },
+            "307": {
+                "307": 0
+            },
+            "308": {
+                "308": 0
+            },
+            "309": {
+                "309": 0
+            },
+            "404": {
+                "404": 0
+            },
+            "405": {
+                "405": 0
+            },
+            "406": {
+                "406": 0
+            },
+            "407": {
+                "407": 0
+            },
+            "504": {
+                "504": 0
+            },
+            "505": {
+                "505": 0
+            },
+            "605": {
+                "605": 0
+            },
+            "607": {
+                "607": 0
+            },
+            "807": {
+                "807": 0
+            },
+            "boxer": {
+                "boxer": 0
+            },
+            "j5": {
+                "j5": 0
+            },
+            "rcz": {
+                "rcz": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "haima": {
+        "official_brand": "Haima",
+        "core_models": [
+            "7X-E",
+            "7X"
+        ],
+        "trims": {
+            "7x-e": {
+                "7x-e tiêu chuẩn": 1000.0,
+                "7x-e cao cấp": 1000.0
+            },
+            "7x": {
+                "7x cao cấp": 865.0
+            }
+        }
+    },
+    "land rover": {
+        "official_brand": "Land Rover",
+        "core_models": [
+            "Range Rover Velar",
+            "Range Rover Evoque",
+            "Range Rover",
+            "Range Rover Sport",
+            "Discovery",
+            "Discovery Sport",
+            "Defender 90, 110",
+            "Defender 130"
+        ],
+        "trims": {
+            "range rover velar": {
+                "range rover velar s": 4000.0,
+                "range rover velar p250 s": 3000.0,
+                "range rover velar p250 dynamic se": 4000.0,
+                "range rover velar p340 s": 4000.0,
+                "range rover velar p400e dynamic hse": 5000.0,
+                "range rover velar p340 dynamic se": 5000.0,
+                "range rover velar p340 dynamic hse": 5000.0
+            },
+            "range rover evoque": {
+                "range rover evoque s": 4000.0,
+                "range rover evoque se p200": 2000.0,
+                "range rover evoque 1.5 s": 3000.0,
+                "range rover evoque 2.0 s": 3000.0,
+                "range rover evoque 2.0 dynamic se": 3000.0,
+                "range rover evoque s 2.0 awd": 2000.0,
+                "range rover evoque hoxton edition 1.5l awd phev": 3000.0
+            },
+            "range rover": {
+                "range rover range rover hse (standard wheelbase)": 7000.0,
+                "range rover autobiography (long wheelbase)": 10000.0
+            },
+            "range rover sport": {
+                "range rover sport hse": 5000.0,
+                "range rover sport dynamic se 3.0 i6 p360": 7000.0,
+                "range rover sport dynamic se 3.0 i6 p400": 7000.0,
+                "range rover sport dynamic hse 3.0 i6 p360": 7000.0,
+                "range rover sport autobiography 3.0 i6 p360": 8000.0,
+                "range rover sport first edition se 3.0 i6 p400": 8000.0
+            },
+            "discovery": {
+                "discovery discovery s": 4000.0
+            },
+            "discovery sport": {
+                "discovery sport s": 4000.0
+            },
+            "defender 90, 110": {
+                "defender 90, 110 90 s": 3000.0,
+                "defender 90, 110 110 s": 3000.0
+            },
+            "defender 130": {
+                "defender 130 se p300": 5000.0
+            }
+        }
+    },
+    "omoda": {
+        "official_brand": "Omoda",
+        "core_models": [
+            "C5"
+        ],
+        "trims": {
+            "c5": {
+                "c5 luxury": 539.0,
+                "c5 premium": 589.0,
+                "c5 flagship": 669.0,
+                "c5 shs-h premium": 669.0,
+                "c5 shs-h flagship": 749.0
+            }
+        }
+    },
+    "bmw": {
+        "official_brand": "BMW",
+        "core_models": [
+            "3 Series",
+            "5 Series",
+            "X3",
+            "7 Series",
+            "X5",
+            "4 Series",
+            "X7",
+            "X4",
+            "X6",
+            "Z4",
+            "1 Series",
+            "2 Series",
+            "6 Series",
+            "8 Series",
+            "Alpina",
+            "i3",
+            "i4",
+            "i7",
+            "i8",
+            "iX",
+            "iX3",
+            "M1",
+            "M2",
+            "M3",
+            "M4",
+            "M5",
+            "M6",
+            "M8",
+            "X1",
+            "X2",
+            "XM",
+            "Z3",
+            "Z8",
+            "Khác",
+            "Series 5",
+            "Series 7",
+            "Z4 Roadster",
+            "Series 3",
+            "Series 4",
+            "Series 8"
+        ],
+        "trims": {
+            "series 5": {
+                "series 5 520i luxury line": 2000.0,
+                "series 5 520i m sport": 2000.0,
+                "series 5 530i m sport": 3000.0,
+                "series 5 520i": 2000.0,
+                "series 5 520i premium": 2000.0
+            },
+            "series 7": {
+                "series 7 730li m sport": 4000.0,
+                "series 7 730li pure excellence": 4000.0,
+                "series 7 740li pure excellence": 6000.0,
+                "series 7 735li m sport": 5000.0,
+                "series 7 735i pure excellence": 5000.0,
+                "series 7 740i pure excellence": 6000.0
+            },
+            "x1": {
+                "x1 sdrive18i xline lci": 1000.0
+            },
+            "x3": {
+                "x3 xdrive20i": 2000.0,
+                "x3 xdrive20i xline": 2000.0,
+                "x3 20 xdrive": 2000.0,
+                "x3 20 xdrive m sport": 2000.0
+            },
+            "x4": {
+                "x4 xdrive20i m sport": 3000.0
+            },
+            "x6": {
+                "x6 xdrive40i m sport": 4000.0
+            },
+            "z4 roadster": {
+                "z4 roadster sdrive30i m sport": 3000.0
+            },
+            "series 3": {
+                "series 3 320i sport line": 1000.0,
+                "series 3 320i sport line plus": 2000.0,
+                "series 3 330i m sport": 2000.0
+            },
+            "x5": {
+                "x5 xdrive40i xline": 3000.0,
+                "x5 xdrive40i m sport": 4000.0,
+                "x5 xdrive40i xline plus": 4000.0
+            },
+            "x7": {
+                "x7 xdrive40i m sport": 6000.0,
+                "x7 xdrive40i pure excellence": 7000.0
+            },
+            "series 4": {
+                "series 4 convertible 2021": 3000.0
+            },
+            "i7": {
+                "i7 xdrive60 pure excellence": 7000.0
+            },
+            "series 8": {
+                "series 8 gran coupe": 6000.0
+            },
+            "ix3": {
+                "ix3 m sport": 3000.0
+            },
+            "i4": {
+                "i4 i4 edrive40": 3000.0
+            },
+            "xm": {
+                "xm xm 2024": 10000.0
+            },
+            "3 series": {
+                "3 series": 0
+            },
+            "5 series": {
+                "5 series": 0
+            },
+            "7 series": {
+                "7 series": 0
+            },
+            "4 series": {
+                "4 series": 0
+            },
+            "z4": {
+                "z4": 0
+            },
+            "1 series": {
+                "1 series": 0
+            },
+            "2 series": {
+                "2 series": 0
+            },
+            "6 series": {
+                "6 series": 0
+            },
+            "8 series": {
+                "8 series": 0
+            },
+            "alpina": {
+                "alpina": 0
+            },
+            "i3": {
+                "i3": 0
+            },
+            "i8": {
+                "i8": 0
+            },
+            "ix": {
+                "ix": 0
+            },
+            "m1": {
+                "m1": 0
+            },
+            "m2": {
+                "m2": 0
+            },
+            "m3": {
+                "m3": 0
+            },
+            "m4": {
+                "m4": 0
+            },
+            "m5": {
+                "m5": 0
+            },
+            "m6": {
+                "m6": 0
+            },
+            "m8": {
+                "m8": 0
+            },
+            "x2": {
+                "x2": 0
+            },
+            "z3": {
+                "z3": 0
+            },
+            "z8": {
+                "z8": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "hongqi": {
+        "official_brand": "Hongqi",
+        "core_models": [
+            "E-HS9",
+            "H9"
+        ],
+        "trims": {
+            "e-hs9": {
+                "e-hs9 executive (7 chỗ)": 2000.0,
+                "e-hs9 deluxe (7 chỗ)": 2000.0,
+                "e-hs9 premium (6 chỗ)": 3000.0,
+                "e-hs9 flagship (4 chỗ)": 3000.0
+            },
+            "h9": {
+                "h9 2.0 elegance": 1000.0,
+                "h9 2.0 luxury": 1000.0,
+                "h9 2.0 premium": 1000.0,
+                "h9 3.0 premium": 2000.0,
+                "h9 3.0 flagship": 2000.0
+            }
+        }
+    },
+    "isuzu": {
+        "official_brand": "Isuzu",
+        "core_models": [
+            "Dmax",
+            "MU-X",
+            "QKR",
+            "Hi lander",
+            "FRR",
+            "NPR",
+            "NQR",
+            "Trooper",
+            "NMR",
+            "FVM",
+            "Amigo",
+            "Ascender",
+            "Aska",
+            "AXiom",
+            "Bighorn",
+            "Campo",
+            "D Cargo",
+            "EXZ",
+            "Faster",
+            "FSR",
+            "FVR",
+            "Gemini",
+            "Midi",
+            "MU",
+            "NLR",
+            "Panther",
+            "Pick up",
+            "Rodeo",
+            "Turkuaz",
+            "Vehi cross",
+            "Wi zard",
+            "Khác",
+            "mu-X",
+            "D-Max"
+        ],
+        "trims": {
+            "mu-x": {
+                "mu-x b7": 799.0,
+                "mu-x b7 plus": 859.0,
+                "mu-x prestige": 949.0,
+                "mu-x b7 4x2 mt": 928.0,
+                "mu-x b7 plus 4x2 at": 1000.0,
+                "mu-x prestige 4x2 at": 1000.0,
+                "mu-x premium 4x4 at": 1000.0,
+                "mu-x sport 4x4 at": 1000.0
+            },
+            "d-max": {
+                "d-max prestige 1.9 4x2 mt": 630.0,
+                "d-max prestige1.9 4x2 at": 650.0,
+                "d-max type z 1.9 4x4 at": 850.0,
+                "d-max prestige 4x2 mt": 650.0,
+                "d-max utz 4x4 mt": 656.0,
+                "d-max prestige 4x2 at": 670.0,
+                "d-max hi-lander 4x2 at": 781.0,
+                "d-max type z 4x4 at": 880.0,
+                "d-max hi lander 4x2 at": 783.0
+            },
+            "dmax": {
+                "dmax": 0
+            },
+            "qkr": {
+                "qkr": 0
+            },
+            "hi lander": {
+                "hi lander": 0
+            },
+            "frr": {
+                "frr": 0
+            },
+            "npr": {
+                "npr": 0
+            },
+            "nqr": {
+                "nqr": 0
+            },
+            "trooper": {
+                "trooper": 0
+            },
+            "nmr": {
+                "nmr": 0
+            },
+            "fvm": {
+                "fvm": 0
+            },
+            "amigo": {
+                "amigo": 0
+            },
+            "ascender": {
+                "ascender": 0
+            },
+            "aska": {
+                "aska": 0
+            },
+            "axiom": {
+                "axiom": 0
+            },
+            "bighorn": {
+                "bighorn": 0
+            },
+            "campo": {
+                "campo": 0
+            },
+            "d cargo": {
+                "d cargo": 0
+            },
+            "exz": {
+                "exz": 0
+            },
+            "faster": {
+                "faster": 0
+            },
+            "fsr": {
+                "fsr": 0
+            },
+            "fvr": {
+                "fvr": 0
+            },
+            "gemini": {
+                "gemini": 0
+            },
+            "midi": {
+                "midi": 0
+            },
+            "mu": {
+                "mu": 0
+            },
+            "nlr": {
+                "nlr": 0
+            },
+            "panther": {
+                "panther": 0
+            },
+            "pick up": {
+                "pick up": 0
+            },
+            "rodeo": {
+                "rodeo": 0
+            },
+            "turkuaz": {
+                "turkuaz": 0
+            },
+            "vehi cross": {
+                "vehi cross": 0
+            },
+            "wi zard": {
+                "wi zard": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "geely": {
+        "official_brand": "Geely",
+        "core_models": [
+            "Coolray",
+            "Monjaro",
+            "EX5",
+            "EX2",
+            "EX5 EM-i",
+            "Okavango"
+        ],
+        "trims": {
+            "coolray": {
+                "coolray standard": 538.0,
+                "coolray premium": 549.0,
+                "coolray flagship": 599.0,
+                "coolray executive": 499.0
+            },
+            "monjaro": {
+                "monjaro hev": 1000.0,
+                "monjaro premium": 1000.0,
+                "monjaro flagship": 1000.0
+            },
+            "ex5": {
+                "ex5 pro": 839.0,
+                "ex5 max": 889.0
+            },
+            "ex2": {
+                "ex2 pro": 459.0,
+                "ex2 max": 499.0
+            },
+            "ex5 em-i": {
+                "ex5 em-i pro": 789.0,
+                "ex5 em-i max": 909.0,
+                "ex5 em-i ultra": 969.0
+            },
+            "okavango": {
+                "okavango executive": 739.0,
+                "okavango premium": 799.0
+            }
+        }
+    },
+    "hyundai": {
+        "official_brand": "Hyundai",
+        "core_models": [
+            "SantaFe",
+            "Accent",
+            "Tucson",
+            "i10",
+            "Elantra",
+            "Creta",
+            "Kona",
+            "Stargazer",
+            "Palisade",
+            "Custin",
+            "Grand Starex",
+            "Venue",
+            "Atos",
+            "Avante",
+            "Azera",
+            "Centennial",
+            "Click",
+            "County",
+            "Coupe",
+            "Custo",
+            "Dynasty",
+            "eMighty",
+            "Eon",
+            "Equus",
+            "Excel",
+            "Galloper",
+            "Genesis",
+            "Getz",
+            "Gold",
+            "Grace",
+            "Grandeur",
+            "H 1",
+            "H 100",
+            "H350",
+            "HD",
+            "i20",
+            "i30",
+            "i40",
+            "Innovation",
+            "Ioniq 5",
+            "Lantra",
+            "Lavita",
+            "Libero",
+            "Marcia",
+            "Matrix",
+            "Maxcruz",
+            "Mighty",
+            "Mobistar",
+            "Pony",
+            "Porter",
+            "S coupe",
+            "Santa Cruz",
+            "Santamo",
+            "Solati",
+            "Sonata",
+            "Starex",
+            "Staria",
+            "Terracan",
+            "Tiburon",
+            "Trajet",
+            "Tuscani",
+            "Universe",
+            "Universe Xpress Luxury",
+            "Veloster",
+            "Veracruz",
+            "Verna",
+            "Xcent",
+            "XG",
+            "Khác",
+            "Santa Fe"
+        ],
+        "trims": {
+            "i10": {
+                "i10 sedan 1.2 mt tiêu chuẩn": 380.0,
+                "i10 1.2 mt": 405.0,
+                "i10 sedan 1.2 mt": 425.0,
+                "i10 1.2 at": 435.0,
+                "i10 sedan 1.2 at": 455.0,
+                "i10 1.2 mt tiêu chuẩn": 360.0,
+                "i10 1.2 at tiêu chuẩn": 405.0,
+                "i10 sedan 1.2 at tiêu chuẩn": 425.0
+            },
+            "accent": {
+                "accent 1.4 mt tiêu chuẩn": 426.0,
+                "accent 1.4 mt": 472.0,
+                "accent 1.4 at": 501.0,
+                "accent 1.4 at đặc biệt": 542.0,
+                "accent 1.5 mt": 439.0,
+                "accent 1.5 at": 489.0,
+                "accent 1.5 at đặc biệt": 529.0,
+                "accent 1.5 at cao cấp": 569.0
+            },
+            "kona": {
+                "kona 2.0 at tiêu chuẩn": 636.0,
+                "kona 2.0 at đặc biệt": 699.0,
+                "kona 1.6 turbo": 750.0
+            },
+            "elantra": {
+                "elantra 1.6 mt": 580.0,
+                "elantra 1.6 at": 639.0,
+                "elantra 2.0 at": 699.0,
+                "elantra sport 1.6 t-gdi": 769.0,
+                "elantra 1.6 at tiêu chuẩn": 579.0,
+                "elantra n line": 769.0
+            },
+            "tucson": {
+                "tucson 2.0 xăng tiêu chuẩn": 769.0,
+                "tucson 2.0 xăng đặc biệt": 859.0,
+                "tucson 2.0 diesel đặc biệt": 989.0,
+                "tucson 1.6 t-gdi đặc biệt": 932.0,
+                "tucson 2.0 tiêu chuẩn": 845.0,
+                "tucson 2.0 đặc biệt": 878.0,
+                "tucson 1.6 turbo": 979.0,
+                "tucson 1.6 n line": 989.0
+            },
+            "santa fe": {
+                "santa fe 2.5 xăng": 979.0,
+                "santa fe 2.2 dầu": 1000.0,
+                "santa fe 2.5 xăng đặc biệt": 1000.0,
+                "santa fe 2.5 xăng cao cấp": 1000.0,
+                "santa fe 2.2 dầu đặc biệt": 1000.0,
+                "santa fe 2.2 dầu cao cấp": 1000.0,
+                "santa fe 1.6 xăng hybrid": 1000.0,
+                "santa fe hybrid": 1000.0,
+                "santa fe exclusive": 1000.0,
+                "santa fe prestige": 1000.0,
+                "santa fe calligraphy 2.5 (6 chỗ)": 1000.0,
+                "santa fe calligraphy 2.5 (7 chỗ )": 1000.0,
+                "santa fe calligraphy 2.5 turbo": 1000.0,
+                "santa fe calligraphy 2.5": 1000.0
+            },
+            "creta": {
+                "creta 1.5 tiêu chuẩn": 599.0,
+                "creta 1.5 đặc biệt": 659.0,
+                "creta 1.5 cao cấp": 705.0,
+                "creta 1.5 n line": 715.0
+            },
+            "stargazer": {
+                "stargazer 1.5 tiêu chuẩn": 575.0,
+                "stargazer 1.5 đặc biệt": 625.0,
+                "stargazer 1.5 cao cấp": 675.0,
+                "stargazer 1.5 cao cấp 6 chỗ": 685.0,
+                "stargazer tiêu chuẩn": 489.0,
+                "stargazer x": 559.0,
+                "stargazer x cao cấp": 599.0,
+                "stargazer đặc biệt": 569.0,
+                "stargazer cao cấp": 615.0
+            },
+            "ioniq 5": {
+                "ioniq 5 exclusive": 1000.0,
+                "ioniq 5 prestige": 1000.0
+            },
+            "custin": {
+                "custin 1.5 tiêu chuẩn": 820.0,
+                "custin 1.5 ðặc biệt": 915.0,
+                "custin 2.0 cao cấp": 974.0
+            },
+            "palisade": {
+                "palisade exclusive 7 chỗ": 1000.0,
+                "palisade exclusive 6 chỗ": 1000.0,
+                "palisade prestige 7 chỗ": 1000.0,
+                "palisade prestige 6 chỗ": 1000.0
+            },
+            "venue": {
+                "venue tiêu chuẩn": 499.0,
+                "venue đặc biệt": 539.0
+            },
+            "santafe": {
+                "santafe": 0
+            },
+            "grand starex": {
+                "grand starex": 0
+            },
+            "atos": {
+                "atos": 0
+            },
+            "avante": {
+                "avante": 0
+            },
+            "azera": {
+                "azera": 0
+            },
+            "centennial": {
+                "centennial": 0
+            },
+            "click": {
+                "click": 0
+            },
+            "county": {
+                "county": 0
+            },
+            "coupe": {
+                "coupe": 0
+            },
+            "custo": {
+                "custo": 0
+            },
+            "dynasty": {
+                "dynasty": 0
+            },
+            "emighty": {
+                "emighty": 0
+            },
+            "eon": {
+                "eon": 0
+            },
+            "equus": {
+                "equus": 0
+            },
+            "excel": {
+                "excel": 0
+            },
+            "galloper": {
+                "galloper": 0
+            },
+            "genesis": {
+                "genesis": 0
+            },
+            "getz": {
+                "getz": 0
+            },
+            "gold": {
+                "gold": 0
+            },
+            "grace": {
+                "grace": 0
+            },
+            "grandeur": {
+                "grandeur": 0
+            },
+            "h 1": {
+                "h 1": 0
+            },
+            "h 100": {
+                "h 100": 0
+            },
+            "h350": {
+                "h350": 0
+            },
+            "hd": {
+                "hd": 0
+            },
+            "i20": {
+                "i20": 0
+            },
+            "i30": {
+                "i30": 0
+            },
+            "i40": {
+                "i40": 0
+            },
+            "innovation": {
+                "innovation": 0
+            },
+            "lantra": {
+                "lantra": 0
+            },
+            "lavita": {
+                "lavita": 0
+            },
+            "libero": {
+                "libero": 0
+            },
+            "marcia": {
+                "marcia": 0
+            },
+            "matrix": {
+                "matrix": 0
+            },
+            "maxcruz": {
+                "maxcruz": 0
+            },
+            "mighty": {
+                "mighty": 0
+            },
+            "mobistar": {
+                "mobistar": 0
+            },
+            "pony": {
+                "pony": 0
+            },
+            "porter": {
+                "porter": 0
+            },
+            "s coupe": {
+                "s coupe": 0
+            },
+            "santa cruz": {
+                "santa cruz": 0
+            },
+            "santamo": {
+                "santamo": 0
+            },
+            "solati": {
+                "solati": 0
+            },
+            "sonata": {
+                "sonata": 0
+            },
+            "starex": {
+                "starex": 0
+            },
+            "staria": {
+                "staria": 0
+            },
+            "terracan": {
+                "terracan": 0
+            },
+            "tiburon": {
+                "tiburon": 0
+            },
+            "trajet": {
+                "trajet": 0
+            },
+            "tuscani": {
+                "tuscani": 0
+            },
+            "universe": {
+                "universe": 0
+            },
+            "universe xpress luxury": {
+                "universe xpress luxury": 0
+            },
+            "veloster": {
+                "veloster": 0
+            },
+            "veracruz": {
+                "veracruz": 0
+            },
+            "verna": {
+                "verna": 0
+            },
+            "xcent": {
+                "xcent": 0
+            },
+            "xg": {
+                "xg": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "volkswagen": {
+        "official_brand": "Volkswagen",
+        "core_models": [
+            "Viloran",
+            "Teramont",
+            "Tiguan",
+            "Teramont X",
+            "Touareg",
+            "Golf",
+            "New Beetle",
+            "T-Cross",
+            "Polo",
+            "Passat",
+            "Beetle",
+            "Bora",
+            "Caddy",
+            "California",
+            "Corrado",
+            "Crafter",
+            "Derby",
+            "Eos",
+            "Golf Plus",
+            "Jetta",
+            "Multivan",
+            "Phaeton",
+            "Routan",
+            "Scirocco",
+            "Sharan",
+            "Solo",
+            "Transporter",
+            "Vento",
+            "Virtus",
+            "Khác",
+            "Golf R Performance",
+            "Teramont Pro"
+        ],
+        "trims": {
+            "polo": {
+                "polo 1.6at": 695.0,
+                "polo sport edition": 699.0
+            },
+            "tiguan": {
+                "tiguan elegance": 1000.0,
+                "tiguan luxury s": 1000.0,
+                "tiguan tiguan luxury": 1000.0,
+                "tiguan tiguan 2022": 1000.0,
+                "tiguan tiguan platinum": 1000.0
+            },
+            "passat": {
+                "passat bluemotion high": 1000.0
+            },
+            "t-cross": {
+                "t-cross elegance": 1000.0,
+                "t-cross luxury": 1000.0
+            },
+            "touareg": {
+                "touareg elegance": 2000.0,
+                "touareg luxury": 2000.0,
+                "touareg highline": 3000.0,
+                "touareg r-line": 3000.0
+            },
+            "virtus": {
+                "virtus elegancy": 949.0,
+                "virtus luxury": 1000.0
+            },
+            "viloran": {
+                "viloran premium": 2000.0,
+                "viloran luxury": 2000.0
+            },
+            "teramont x": {
+                "teramont x luxury": 1000.0,
+                "teramont x platinum": 2000.0
+            },
+            "teramont": {
+                "teramont limited edition": 2000.0
+            },
+            "golf": {
+                "golf 1.5 etsi life": 798.0,
+                "golf 1.5 etsi style": 898.0,
+                "golf 1.5 etsi r-line": 998.0,
+                "golf 2.0 gti lite": 1000.0,
+                "golf 2.0 tsi gti performance": 1000.0
+            },
+            "golf r performance": {
+                "golf r performance 2.0 tsi r performance": 1000.0
+            },
+            "teramont pro": {
+                "teramont pro teramont pro": 2000.0,
+                "teramont pro teramont pro max": 2000.0
+            },
+            "new beetle": {
+                "new beetle": 0
+            },
+            "beetle": {
+                "beetle": 0
+            },
+            "bora": {
+                "bora": 0
+            },
+            "caddy": {
+                "caddy": 0
+            },
+            "california": {
+                "california": 0
+            },
+            "corrado": {
+                "corrado": 0
+            },
+            "crafter": {
+                "crafter": 0
+            },
+            "derby": {
+                "derby": 0
+            },
+            "eos": {
+                "eos": 0
+            },
+            "golf plus": {
+                "golf plus": 0
+            },
+            "jetta": {
+                "jetta": 0
+            },
+            "multivan": {
+                "multivan": 0
+            },
+            "phaeton": {
+                "phaeton": 0
+            },
+            "routan": {
+                "routan": 0
+            },
+            "scirocco": {
+                "scirocco": 0
+            },
+            "sharan": {
+                "sharan": 0
+            },
+            "solo": {
+                "solo": 0
+            },
+            "transporter": {
+                "transporter": 0
+            },
+            "vento": {
+                "vento": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "lexus": {
+        "official_brand": "Lexus",
+        "core_models": [
+            "RX",
+            "LX",
+            "ES",
+            "GX",
+            "LM",
+            "NX",
+            "CT",
+            "GS",
+            "HS",
+            "IS",
+            "LC",
+            "LS",
+            "RC",
+            "SC",
+            "SL",
+            "Khác"
+        ],
+        "trims": {
+            "is": {
+                "is standard": 2000.0,
+                "is luxury": 2000.0,
+                "is hybrid": 2000.0
+            },
+            "es": {
+                "es 250": 2000.0,
+                "es 250 f sport": 2000.0,
+                "es 300h": 3000.0
+            },
+            "ls": {
+                "ls ls500": 7000.0,
+                "ls ls500h": 8000.0
+            },
+            "nx": {
+                "nx nx300": 2000.0,
+                "nx 350 f sport": 3000.0,
+                "nx 350h": 3000.0
+            },
+            "rx": {
+                "rx rx300": 3000.0,
+                "rx rx350": 4000.0,
+                "rx rx350l": 4000.0,
+                "rx rx450h": 4000.0,
+                "rx 350 premium": 3000.0,
+                "rx 350 luxury": 4000.0,
+                "rx 350 f sport": 4000.0,
+                "rx 500h f sport performance": 4000.0
+            },
+            "lx": {
+                "lx lx 570": 8000.0,
+                "lx 600 urban": 8000.0,
+                "lx 600 f sport": 8000.0,
+                "lx 600 vip": 9000.0
+            },
+            "lm": {
+                "lm 7 seat": 7000.0,
+                "lm 4 seat": 8000.0,
+                "lm 500h 6 chỗ": 7000.0,
+                "lm 500h 4 chỗ": 8000.0
+            },
+            "gx": {
+                "gx 460": 5000.0,
+                "gx gx 550": 6000.0
+            },
+            "ct": {
+                "ct": 0
+            },
+            "gs": {
+                "gs": 0
+            },
+            "hs": {
+                "hs": 0
+            },
+            "lc": {
+                "lc": 0
+            },
+            "rc": {
+                "rc": 0
+            },
+            "sc": {
+                "sc": 0
+            },
+            "sl": {
+                "sl": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "porsche": {
+        "official_brand": "Porsche",
+        "core_models": [
+            "Macan",
+            "Cayenne",
+            "Panamera",
+            "718",
+            "Taycan",
+            "911",
+            "928",
+            "944",
+            "968",
+            "Boxster",
+            "Carrera",
+            "Cayman",
+            "Khác",
+            "Macan EV"
+        ],
+        "trims": {
+            "718": {
+                "718 cayman": 3000.0,
+                "718 boxster": 3000.0,
+                "718 boxster t": 4000.0,
+                "718 cayman s": 4000.0,
+                "718 cayman t": 4000.0,
+                "718 boxster s": 4000.0
+            },
+            "911": {
+                "911 carerra 4": 8000.0,
+                "911 carerra cabriolet": 9000.0,
+                "911 carerra s": 10000.0,
+                "911 targa 4": 8000.0,
+                "911 carerra 4 cabriolet": 8000.0,
+                "911 carerra 4s": 8000.0,
+                "911 carerra s cabriolet": 11000.0,
+                "911 carerra gts": 13000.0,
+                "911 targa 4s": 9000.0,
+                "911 carerra 4s cabriolet": 9000.0,
+                "911 carerra 4 gts": 13000.0,
+                "911 carerra gts cabriolet": 14000.0,
+                "911 targa 4 gts": 14000.0,
+                "911 carerra 4 gts cabriolet": 14000.0,
+                "911 gt3": 12000.0,
+                "911 turbo s": 16000.0,
+                "911 turbo": 14000.0,
+                "911 turbo cabriolet": 15000.0,
+                "911 turbo s cabriolet": 17000.0,
+                "911 carerra": 8000.0,
+                "911 carerra t": 9000.0,
+                "911 carerra t cabriolet": 10000.0
+            },
+            "taycan": {
+                "taycan base": 4000.0,
+                "taycan 4 cross turismo": 5000.0,
+                "taycan 4 cross turismo (clone)": 5000.0,
+                "taycan 4s": 5000.0,
+                "taycan 4s cross turismo": 5000.0,
+                "taycan turbo": 7000.0,
+                "taycan turbo cross turismo": 7000.0,
+                "taycan turbo s": 8000.0,
+                "taycan turbo gt": 9000.0
+            },
+            "panamera": {
+                "panamera v6": 5000.0,
+                "panamera 4 executive": 5000.0,
+                "panamera 4": 5000.0,
+                "panamera 4 cross turismo": 5000.0,
+                "panamera gts": 11000.0,
+                "panamera gts sport turismo": 10000.0,
+                "panamera turbo s": 13000.0,
+                "panamera panamera": 6000.0
+            },
+            "macan": {
+                "macan base": 3000.0,
+                "macan gts": 5000.0,
+                "macan t": 3000.0,
+                "macan s": 4000.0
+            },
+            "cayenne": {
+                "cayenne cayenne": 4000.0,
+                "cayenne coupe": 5000.0,
+                "cayenne s": 7000.0,
+                "cayenne s coupe": 6000.0,
+                "cayenne gts": 7000.0,
+                "cayenne gts coupe": 7000.0,
+                "cayenne turbo": 9000.0,
+                "cayenne turbo gt": 14000.0,
+                "cayenne turbo coupe": 9000.0,
+                "cayenne tiêu chuẩn": 5000.0,
+                "cayenne coupé": 5000.0,
+                "cayenne s coupé": 8000.0
+            },
+            "macan ev": {
+                "macan ev tiêu chuẩn": 3000.0,
+                "macan ev 4": 3000.0,
+                "macan ev 4s": 4000.0,
+                "macan ev turbo": 5000.0
+            },
+            "928": {
+                "928": 0
+            },
+            "944": {
+                "944": 0
+            },
+            "968": {
+                "968": 0
+            },
+            "boxster": {
+                "boxster": 0
+            },
+            "carrera": {
+                "carrera": 0
+            },
+            "cayman": {
+                "cayman": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "mg": {
+        "official_brand": "MG",
+        "core_models": [
+            "5",
+            "ZS",
+            "HS",
+            "G50",
+            "RX5",
+            "7",
+            "3",
+            "350C",
+            "4",
+            "6",
+            "Cyberster",
+            "Express",
+            "MGF",
+            "Montego",
+            "X",
+            "ZT",
+            "Khác",
+            "MG5",
+            "MG4 EV",
+            "MG7"
+        ],
+        "trims": {
+            "zs": {
+                "zs mg zs std+": 518.0,
+                "zs mg zs lux+": 588.0
+            },
+            "hs": {
+                "hs 1.5t std (2wd sport)": 719.0,
+                "hs 1.5t lux (2wd trophy)": 829.0,
+                "hs 2.0t lux (awd trophy)": 869.0
+            },
+            "mg5": {
+                "mg5 std": 523.0,
+                "mg5 luxury": 588.0,
+                "mg5 mt": 399.0,
+                "mg5 cvt standard": 459.0,
+                "mg5 cvt deluxe": 499.0
+            },
+            "rx5": {
+                "rx5 1.5 std": 739.0,
+                "rx5 1.5 lux": 829.0
+            },
+            "mg4 ev": {
+                "mg4 ev del": 828.0,
+                "mg4 ev lux": 948.0
+            },
+            "mg7": {
+                "mg7 1.5 luxury": 738.0,
+                "mg7 2.0 luxury": 898.0,
+                "mg7 2.0 premium": 1000.0
+            },
+            "cyberster": {
+                "cyberster awd": 3000.0
+            },
+            "g50": {
+                "g50 1.5 mt com": 559.0,
+                "g50 1.5t at del": 698.0,
+                "g50 1.5t at lux": 749.0
+            },
+            "5": {
+                "5": 0
+            },
+            "7": {
+                "7": 0
+            },
+            "3": {
+                "3": 0
+            },
+            "350c": {
+                "350c": 0
+            },
+            "4": {
+                "4": 0
+            },
+            "6": {
+                "6": 0
+            },
+            "express": {
+                "express": 0
+            },
+            "mgf": {
+                "mgf": 0
+            },
+            "montego": {
+                "montego": 0
+            },
+            "x": {
+                "x": 0
+            },
+            "zt": {
+                "zt": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "lynk & co": {
+        "official_brand": "Lynk & Co",
+        "core_models": [
+            "09",
+            "06",
+            "01",
+            "05",
+            "03+",
+            "08"
+        ],
+        "trims": {
+            "09": {
+                "09 halo": 2000.0
+            },
+            "06": {
+                "06 2024": 729.0,
+                "06 core plus": 679.0
+            },
+            "01": {
+                "01 hyper": 999.0,
+                "01 hyper pro": 999.0
+            },
+            "05": {
+                "05 hyper halo": 1000.0
+            },
+            "03+": {
+                "03+ 03+": 0
+            },
+            "08": {
+                "08 pro": 1000.0,
+                "08 halo": 1000.0
+            }
+        }
+    },
+    "jaguar": {
+        "official_brand": "Jaguar",
+        "core_models": [
+            "XF",
+            "XJ series",
+            "F-Pace",
+            "XE",
+            "E-Pace",
+            "F Type",
+            "E Type",
+            "I-Pace",
+            "S Type",
+            "X Type",
+            "XK series",
+            "Khác",
+            "F-Type"
+        ],
+        "trims": {
+            "xe": {
+                "xe s": 3000.0
+            },
+            "xf": {
+                "xf r-dynamic se": 3000.0
+            },
+            "f-pace": {
+                "f-pace s": 3000.0
+            },
+            "e-pace": {
+                "e-pace e-pace s": 3000.0
+            },
+            "f-type": {
+                "f-type coupe 2.0": 5000.0,
+                "f-type convertible 2.0": 6000.0
+            },
+            "xj series": {
+                "xj series": 0
+            },
+            "f type": {
+                "f type": 0
+            },
+            "e type": {
+                "e type": 0
+            },
+            "i-pace": {
+                "i-pace": 0
+            },
+            "s type": {
+                "s type": 0
+            },
+            "x type": {
+                "x type": 0
+            },
+            "xk series": {
+                "xk series": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "volvo": {
+        "official_brand": "Volvo",
+        "core_models": [
+            "XC60",
+            "S90",
+            "XC90",
+            "XC40",
+            "V60",
+            "V90",
+            "264",
+            "340",
+            "360",
+            "460",
+            "740",
+            "760",
+            "850",
+            "940",
+            "960",
+            "C70",
+            "EC40",
+            "S40",
+            "S60",
+            "Torslanda",
+            "V70",
+            "XC70",
+            "Khác",
+            "V60 Cross Country"
+        ],
+        "trims": {
+            "xc40": {
+                "xc40 ultra": 1000.0
+            },
+            "xc60": {
+                "xc60 ultra": 2000.0,
+                "xc60 recharge (phev)": 2000.0,
+                "xc60 xc60 plug-in hybrid ultra": 2000.0
+            },
+            "xc90": {
+                "xc90 plug-in hybrid ultra": 4000.0,
+                "xc90 ultra b5": 3000.0
+            },
+            "v90": {
+                "v90 cross country": 3000.0
+            },
+            "v60 cross country": {
+                "v60 cross country b5 awd": 2000.0
+            },
+            "s90": {
+                "s90 ultra": 2000.0,
+                "s90 plug-in hybrid ultra": 2000.0
+            },
+            "v60": {
+                "v60": 0
+            },
+            "264": {
+                "264": 0
+            },
+            "340": {
+                "340": 0
+            },
+            "360": {
+                "360": 0
+            },
+            "460": {
+                "460": 0
+            },
+            "740": {
+                "740": 0
+            },
+            "760": {
+                "760": 0
+            },
+            "850": {
+                "850": 0
+            },
+            "940": {
+                "940": 0
+            },
+            "960": {
+                "960": 0
+            },
+            "c70": {
+                "c70": 0
+            },
+            "ec40": {
+                "ec40": 0
+            },
+            "s40": {
+                "s40": 0
+            },
+            "s60": {
+                "s60": 0
+            },
+            "torslanda": {
+                "torslanda": 0
+            },
+            "v70": {
+                "v70": 0
+            },
+            "xc70": {
+                "xc70": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "chevrolet": {
+        "official_brand": "Chevrolet",
+        "core_models": [
+            "Spark",
+            "Cruze",
+            "Captiva",
+            "Aveo",
+            "Colorado",
+            "Trailblazer",
+            "Vivant",
+            "Lacetti",
+            "Trax",
+            "Orlando",
+            "Camaro",
+            "Impala",
+            "Alero",
+            "Astro",
+            "Avanlanche",
+            "Beretta",
+            "Caprice",
+            "Cavalier",
+            "Chevyvan",
+            "Cobalt",
+            "Corsica",
+            "Corvette",
+            "Equinox",
+            "Explorer",
+            "Express",
+            "Ipanema",
+            "Kalos",
+            "Lumina",
+            "Malibu",
+            "Matiz",
+            "Nubira",
+            "Prizm",
+            "S 10",
+            "Silverado",
+            "Spectrum",
+            "SSR",
+            "Suburban",
+            "Tahoe",
+            "Tracker",
+            "Trans Sport",
+            "Venture",
+            "Khác"
+        ],
+        "trims": {
+            "spark": {
+                "spark": 0
+            },
+            "cruze": {
+                "cruze": 0
+            },
+            "captiva": {
+                "captiva": 0
+            },
+            "aveo": {
+                "aveo": 0
+            },
+            "colorado": {
+                "colorado": 0
+            },
+            "trailblazer": {
+                "trailblazer": 0
+            },
+            "vivant": {
+                "vivant": 0
+            },
+            "lacetti": {
+                "lacetti": 0
+            },
+            "trax": {
+                "trax": 0
+            },
+            "orlando": {
+                "orlando": 0
+            },
+            "camaro": {
+                "camaro": 0
+            },
+            "impala": {
+                "impala": 0
+            },
+            "alero": {
+                "alero": 0
+            },
+            "astro": {
+                "astro": 0
+            },
+            "avanlanche": {
+                "avanlanche": 0
+            },
+            "beretta": {
+                "beretta": 0
+            },
+            "caprice": {
+                "caprice": 0
+            },
+            "cavalier": {
+                "cavalier": 0
+            },
+            "chevyvan": {
+                "chevyvan": 0
+            },
+            "cobalt": {
+                "cobalt": 0
+            },
+            "corsica": {
+                "corsica": 0
+            },
+            "corvette": {
+                "corvette": 0
+            },
+            "equinox": {
+                "equinox": 0
+            },
+            "explorer": {
+                "explorer": 0
+            },
+            "express": {
+                "express": 0
+            },
+            "ipanema": {
+                "ipanema": 0
+            },
+            "kalos": {
+                "kalos": 0
+            },
+            "lumina": {
+                "lumina": 0
+            },
+            "malibu": {
+                "malibu": 0
+            },
+            "matiz": {
+                "matiz": 0
+            },
+            "nubira": {
+                "nubira": 0
+            },
+            "prizm": {
+                "prizm": 0
+            },
+            "s 10": {
+                "s 10": 0
+            },
+            "silverado": {
+                "silverado": 0
+            },
+            "spectrum": {
+                "spectrum": 0
+            },
+            "ssr": {
+                "ssr": 0
+            },
+            "suburban": {
+                "suburban": 0
+            },
+            "tahoe": {
+                "tahoe": 0
+            },
+            "tracker": {
+                "tracker": 0
+            },
+            "trans sport": {
+                "trans sport": 0
+            },
+            "venture": {
+                "venture": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "daewoo": {
+        "official_brand": "Daewoo",
+        "core_models": [
+            "Lacetti",
+            "Matiz",
+            "Gentra",
+            "Lanos",
+            "Nubira",
+            "Magnus",
+            "GentraX",
+            "Espero",
+            "Labo",
+            "Tacuma",
+            "Aranos",
+            "Arcadia",
+            "Brougham",
+            "Chairman",
+            "Cielo",
+            "Damas",
+            "Evanda",
+            "Istana",
+            "Kalos",
+            "Korando",
+            "Leganza",
+            "Lublin",
+            "Musso",
+            "Nexia",
+            "Novus",
+            "Polonez",
+            "Prince",
+            "Racer",
+            "Rexton",
+            "Rezzo",
+            "Statesman",
+            "Super Saloon",
+            "Tico",
+            "Tosca",
+            "Winstorm",
+            "Khác"
+        ],
+        "trims": {
+            "lacetti": {
+                "lacetti": 0
+            },
+            "matiz": {
+                "matiz": 0
+            },
+            "gentra": {
+                "gentra": 0
+            },
+            "lanos": {
+                "lanos": 0
+            },
+            "nubira": {
+                "nubira": 0
+            },
+            "magnus": {
+                "magnus": 0
+            },
+            "gentrax": {
+                "gentrax": 0
+            },
+            "espero": {
+                "espero": 0
+            },
+            "labo": {
+                "labo": 0
+            },
+            "tacuma": {
+                "tacuma": 0
+            },
+            "aranos": {
+                "aranos": 0
+            },
+            "arcadia": {
+                "arcadia": 0
+            },
+            "brougham": {
+                "brougham": 0
+            },
+            "chairman": {
+                "chairman": 0
+            },
+            "cielo": {
+                "cielo": 0
+            },
+            "damas": {
+                "damas": 0
+            },
+            "evanda": {
+                "evanda": 0
+            },
+            "istana": {
+                "istana": 0
+            },
+            "kalos": {
+                "kalos": 0
+            },
+            "korando": {
+                "korando": 0
+            },
+            "leganza": {
+                "leganza": 0
+            },
+            "lublin": {
+                "lublin": 0
+            },
+            "musso": {
+                "musso": 0
+            },
+            "nexia": {
+                "nexia": 0
+            },
+            "novus": {
+                "novus": 0
+            },
+            "polonez": {
+                "polonez": 0
+            },
+            "prince": {
+                "prince": 0
+            },
+            "racer": {
+                "racer": 0
+            },
+            "rexton": {
+                "rexton": 0
+            },
+            "rezzo": {
+                "rezzo": 0
+            },
+            "statesman": {
+                "statesman": 0
+            },
+            "super saloon": {
+                "super saloon": 0
+            },
+            "tico": {
+                "tico": 0
+            },
+            "tosca": {
+                "tosca": 0
+            },
+            "winstorm": {
+                "winstorm": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "landrover": {
+        "official_brand": "LandRover",
+        "core_models": [
+            "Range Rover",
+            "Range Rover Evoque",
+            "Range Rover Sport",
+            "Range Rover Velar",
+            "Defender",
+            "Discovery",
+            "Discovery Sport",
+            "Freelander",
+            "Khác"
+        ],
+        "trims": {
+            "range rover": {
+                "range rover": 0
+            },
+            "range rover evoque": {
+                "range rover evoque": 0
+            },
+            "range rover sport": {
+                "range rover sport": 0
+            },
+            "range rover velar": {
+                "range rover velar": 0
+            },
+            "defender": {
+                "defender": 0
+            },
+            "discovery": {
+                "discovery": 0
+            },
+            "discovery sport": {
+                "discovery sport": 0
+            },
+            "freelander": {
+                "freelander": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "mercedes benz": {
+        "official_brand": "Mercedes Benz",
+        "core_models": [
+            "GLC",
+            "C class",
+            "E class",
+            "S class",
+            "GLS",
+            "G class",
+            "GLE Class",
+            "V class",
+            "GLA class",
+            "190",
+            "A class",
+            "AMG GT",
+            "Atego",
+            "B class",
+            "CL class",
+            "CLA class",
+            "CLK class",
+            "CLS class",
+            "EQB",
+            "EQE",
+            "EQS",
+            "GL",
+            "GLB",
+            "GLK Class",
+            "M class",
+            "MB",
+            "ML Class",
+            "R class",
+            "SL class",
+            "SLC",
+            "SLK class",
+            "SLR Mclaren",
+            "Sprinter",
+            "SR class",
+            "Vaneo",
+            "Viano",
+            "Vito",
+            "Khác"
+        ],
+        "trims": {
+            "glc": {
+                "glc": 0
+            },
+            "c class": {
+                "c class": 0
+            },
+            "e class": {
+                "e class": 0
+            },
+            "s class": {
+                "s class": 0
+            },
+            "gls": {
+                "gls": 0
+            },
+            "g class": {
+                "g class": 0
+            },
+            "gle class": {
+                "gle class": 0
+            },
+            "v class": {
+                "v class": 0
+            },
+            "gla class": {
+                "gla class": 0
+            },
+            "190": {
+                "190": 0
+            },
+            "a class": {
+                "a class": 0
+            },
+            "amg gt": {
+                "amg gt": 0
+            },
+            "atego": {
+                "atego": 0
+            },
+            "b class": {
+                "b class": 0
+            },
+            "cl class": {
+                "cl class": 0
+            },
+            "cla class": {
+                "cla class": 0
+            },
+            "clk class": {
+                "clk class": 0
+            },
+            "cls class": {
+                "cls class": 0
+            },
+            "eqb": {
+                "eqb": 0
+            },
+            "eqe": {
+                "eqe": 0
+            },
+            "eqs": {
+                "eqs": 0
+            },
+            "gl": {
+                "gl": 0
+            },
+            "glb": {
+                "glb": 0
+            },
+            "glk class": {
+                "glk class": 0
+            },
+            "m class": {
+                "m class": 0
+            },
+            "mb": {
+                "mb": 0
+            },
+            "ml class": {
+                "ml class": 0
+            },
+            "r class": {
+                "r class": 0
+            },
+            "sl class": {
+                "sl class": 0
+            },
+            "slc": {
+                "slc": 0
+            },
+            "slk class": {
+                "slk class": 0
+            },
+            "slr mclaren": {
+                "slr mclaren": 0
+            },
+            "sprinter": {
+                "sprinter": 0
+            },
+            "sr class": {
+                "sr class": 0
+            },
+            "vaneo": {
+                "vaneo": 0
+            },
+            "viano": {
+                "viano": 0
+            },
+            "vito": {
+                "vito": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    },
+    "rolls royce": {
+        "official_brand": "Rolls Royce",
+        "core_models": [
+            "Ghost",
+            "Phantom",
+            "Cullinan",
+            "Wraith",
+            "Dawn",
+            "Corniche",
+            "Park ward",
+            "Silver",
+            "Khác"
+        ],
+        "trims": {
+            "ghost": {
+                "ghost": 0
+            },
+            "phantom": {
+                "phantom": 0
+            },
+            "cullinan": {
+                "cullinan": 0
+            },
+            "wraith": {
+                "wraith": 0
+            },
+            "dawn": {
+                "dawn": 0
+            },
+            "corniche": {
+                "corniche": 0
+            },
+            "park ward": {
+                "park ward": 0
+            },
+            "silver": {
+                "silver": 0
+            },
+            "khác": {
+                "khác": 0
+            }
+        }
+    }
+}

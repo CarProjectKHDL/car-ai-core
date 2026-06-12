@@ -14,3 +14,7 @@ xgboost==2.0.3
 schedule==1.2.2
 
 pymongo[srv]==4.7.2
+
+lightgbm
+catboost
+category_encoders

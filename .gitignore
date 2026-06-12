@@ -9,3 +9,8 @@ __pycache__/
 data/bronze/*.csv
 data/silver/*.csv
 data/gold/*.csv
+
+vcar.html
+vcar_files/
+bonbanh_files
+bonbanh.html
