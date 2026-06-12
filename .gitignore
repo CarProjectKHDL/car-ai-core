@@ -14,3 +14,7 @@ vcar.html
 vcar_files/
 bonbanh_files
 bonbanh.html
+
+# Ignore temporary and cache files
+catboost_info/
+inspect_data.py
