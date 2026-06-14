@@ -2,14 +2,16 @@ import os
 import pandas as pd
 import numpy as np
 
-# Danh sách các hãng xe siêu sang / quá hiếm gặp trên thị trường VN
-# Loại bỏ hoàn toàn khỏi tầng Gold để tránh đầu độc model với outlier giá trị cực đoan
+# Loại bỏ các hãng xe hoàn toàn khỏi tầng Gold để tránh đầu độc model với outlier giá trị cực đoan
 EXCLUDED_BRANDS = [
     'Aion', 'Aston Martin', 'Bentley', 'Dongfeng', 'GAC', 'Haima',
     'Haval', 'Hongqi', 'Jaecoo', 'Jaguar', 'Lotus', 'Lynk & Co',
     'Maserati', 'Omoda', 'Ram', 'Skoda', 'Wuling',
     'Rolls Royce', 'Rolls-Royce', 'LandRover', 'Land Rover'
 ]
+
+# Ngưỡng giá tuyệt đối tối đa
+MAX_PRICE_THRESHOLD = 9000
 
 def generate_gold_layer():
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
@@ -28,7 +30,6 @@ def generate_gold_layer():
     # ----------------------------------------------------------------------
     # BƯỚC 0: LOẠI BỎ PHÂN KHÚC SIÊU SANG / HÃNG QUÁ HIẾM GẶP
     # ----------------------------------------------------------------------
-    # Chuẩn hóa case-insensitive để khớp tên brand
     excluded_lower = [b.lower().strip() for b in EXCLUDED_BRANDS]
     mask_excluded = df['brand'].astype(str).str.lower().str.strip().isin(excluded_lower)
     removed_count = mask_excluded.sum()
@@ -42,12 +43,12 @@ def generate_gold_layer():
     df = df[df['category_counts'] >= 3].drop(columns=['category_counts']).reset_index(drop=True)
 
     # ----------------------------------------------------------------------
-    # BƯỚC 2: THANH TRỪNG TIN RÁC LƯỜI ĐIỀN SỐ KM
+    # BƯỚC 2: THANH TRỪNG TIN RÁC KHÔNG ĐIỀN SỐ KM
     # ----------------------------------------------------------------------
-    # Nếu xe đời sâu (tuổi xe >= 1) mà số Km rao bán vẫn bằng 0 hoặc nhỏ hơn 1000 Km -> Tin rác, xóa!
+    # Nếu xe đời sâu (tuổi xe >= 1) mà số Km rao bán vẫn bằng 0 hoặc nhỏ hơn 1000 Km -> Xóa
     df = df[~((df['car_age'] >= 1) & (df['odo_numeric'] <= 1000))].reset_index(drop=True)
 
-    # Xe đời mới tinh cùng năm nếu khuyết ODO (bằng 0) thì để NaN, imputer sẽ lấp bằng trung vị
+    # Xe đời mới tinh cùng năm nếu khuyết ODO (bằng 0) thì để NaN, imputer lấp bằng trung vị
     df['odo_numeric'] = df['odo_numeric'].replace(0, np.nan)
 
     # ----------------------------------------------------------------------
@@ -73,9 +74,17 @@ def generate_gold_layer():
     # ----------------------------------------------------------------------
     # BƯỚC 4: ÁP TRẦN GIÁ TUYỆT ĐỐI VÀ TUỔI XE
     # ----------------------------------------------------------------------
-    # Sau khi đã loại các hãng siêu sang, ngưỡng 3.5 tỷ chặn các outlier giá còn sót
-    # (ví dụ phiên bản hiếm/độ của các hãng phổ thông)
-    gold_df = gold_df[gold_df['price_numeric'] <= 9000]
+    # Giám sát mức độ ảnh hưởng của ngưỡng giá trước khi cắt
+    n_2000_3500 = (gold_df['price_numeric'].between(2000, 3500)).sum()
+    n_3500_9000 = (gold_df['price_numeric'].between(3500, 9000)).sum()
+    n_above_2000 = (gold_df['price_numeric'] > 2000).sum()
+    print(f"[*] Số xe giá 2000-3500tr: {n_2000_3500}")
+    print(f"[*] Số xe giá 3500-9000tr: {n_3500_9000}")
+    if n_above_2000 > 0:
+        print("    Phân phối brand trong khoảng >2000tr (sẽ bị loại):")
+        print(gold_df[gold_df['price_numeric'] > 2000]['brand'].value_counts().to_string())
+
+    gold_df = gold_df[gold_df['price_numeric'] <= MAX_PRICE_THRESHOLD]
 
     # Áp trần chặn tuổi xe nghiêm ngặt <= 10 năm
     gold_df = gold_df[gold_df['car_age'] <= 10].reset_index(drop=True)

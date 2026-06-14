@@ -35,7 +35,6 @@ def extract_clean_numeric_price(title_raw):
 def extract_hierarchical_car_info(title_raw, master_dict):
     """
     Thuật toán trích xuất đa tầng phân cấp (Hierarchical Extraction Engine):
-    Vá triệt để lỗi bóc tách nhãn 'az' lệch lạc của các dòng xe Mazda.
     """
     title_lower = " ".join(str(title_raw).split()).lower()
     
@@ -177,8 +176,6 @@ def clean_and_transform_silver():
             item['origin'] = row['raw_origin'] if pd.notna(row['raw_origin']) else "Không rõ"
             item['condition'] = row['raw_condition'] if pd.notna(row['raw_condition']) else "Xe đã dùng"
             
-            # BIẾN LOCATION ĐÃ BỊ LOẠI BỎ TOÀN DIỆN KHỎI HỆ THỐNG TẠI ĐÂY LÀM SẠCH SCHEMA
-
             desc_val = str(row.get(desc_col, ''))
             desc_lower = desc_val.lower()
             item['is_first_owner'] = 1 if any(x in desc_lower for x in ['chính chủ', '1 chủ', 'một chủ', 'mua từ mới', 'đập hộp']) else 0
@@ -194,9 +191,8 @@ def clean_and_transform_silver():
     
     os.makedirs(os.path.dirname(silver_path), exist_ok=True)
     silver_df.to_csv(silver_path, index=False, encoding='utf-8-sig')
-    print(f"[SUCCESS] Tầng Silver được cập nhật sạch sẽ (Không chứa Location). Total: {len(silver_df)} dòng.")
-    # Trong silver_df, sau khi build xong
+    print(f"[SUCCESS] Tầng Silver được cập nhật. Total: {len(silver_df)} dòng.")
     mask_odo_zero_old_car = (silver_df['car_age'] > 0) & (silver_df['odo_numeric'] == 0)
-    print(f"Xe cũ (car_age>0) nhưng odo=0 (có thể lỗi crawl): {mask_odo_zero_old_car.sum()}")
+    print(f"Xe cũ (car_age>0) nhưng odo=0: {mask_odo_zero_old_car.sum()}")
 if __name__ == "__main__":
     clean_and_transform_silver()

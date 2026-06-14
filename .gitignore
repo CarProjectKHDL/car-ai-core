@@ -1,20 +1,31 @@
 env/
 .venv/
+car_env/
 __pycache__/
 *.pyc
-
 .vscode/
 .idea/
-
-data/bronze/*.csv
-data/silver/*.csv
-data/gold/*.csv
+.DS_Store
+.ipynb_checkpoints/
 
 vcar.html
 vcar_files/
-bonbanh_files
 bonbanh.html
+bonbanh_files/
+*.log
+*.txt
 
-# Ignore temporary and cache files
 catboost_info/
 inspect_data.py
+
+data/bronze/
+data/silver/*.csv
+data/gold/*.csv
+
+!data/silver/brand_model_dictionary.json
+!data/gold/gold_deals.csv
+
+data/gold/car_pricer_model.pkl
+
+!models_prod/dual_core_model_A.pkl
+!models_prod/dual_core_model_B.pkl
