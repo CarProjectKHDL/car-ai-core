@@ -169,5 +169,69 @@ def run_daily_sweet_deals_engine():
     top_30_deals.to_csv(gold_deals_path, index=False, encoding='utf-8-sig')
     print(f"[SUCCESS] Đã cập nhật xong 30 kèo Tthơm chuẩn hóa vào sản phẩm: {gold_deals_path}")
 
+    # =====================================================================
+    # LOGIC ĐỒNG BỘ DỮ LIỆU LÊN MONGODB ATLAS CHO TAB GOLD DEALS
+    # =====================================================================
+    mongo_uri = os.environ.get("MONGO_URI")
+    if not mongo_uri:
+        print("[!] CẢNH BÁO: Chưa cấu hình MONGO_URI trong Environment Variables.")
+        print("    -> Bỏ qua tiến trình đồng bộ Gold Deals lên Đám mây.")
+        return
+
+    try:
+        from pymongo import MongoClient
+        
+        print("[*] Đang khởi tạo luồng kết nối tới MongoDB Atlas...")
+        client = MongoClient(mongo_uri, serverSelectionTimeoutMS=5000)
+        db = client['car_data_platform']
+        collection = db['gold_deals_collection']
+        
+        # 1. Reset for Fresh Daily Deals
+        delete_result = collection.delete_many({})
+        print(f"   [-] Đã xóa sạch {delete_result.deleted_count} bản ghi kèo thơm cũ trên Cloud.")
+        
+        # 2. Chuyển đổi DataFrame thành danh sách dictionary
+        records = top_30_deals.to_dict(orient='records')
+        
+        # 3. Chèn đồng loạt dữ liệu mới lên MongoDB
+        if records:
+            collection.insert_many(records)
+            print(f"[SUCCESS] Đã đồng bộ thành công {len(records)} Kèo Thơm lên MongoDB Atlas (car_data_platform.gold_deals_collection)!")
+        else:
+            print("   [-] Hệ thống không tìm thấy kèo thơm nào để đồng bộ lên Cloud hôm nay.")
+            
+        # =====================================================================
+        # ĐỒNG BỘ TỪ ĐIỂN HÃNG XE CHUẨN (MASTER TAXONOMIES)
+        # =====================================================================
+        print("[*] Đang tiến hành đồng bộ Master Dictionary lên MongoDB Atlas...")
+        master_dict_path = os.path.join(BASE_DIR, 'data', 'silver', 'brand_model_dictionary.json')
+        
+        if os.path.exists(master_dict_path):
+            with open(master_dict_path, 'r', encoding='utf-8') as f:
+                master_dict = json.load(f)
+                
+            dict_collection = db['master_dictionary_collection']
+            
+            # Xóa cấu hình cũ
+            delete_dict_result = dict_collection.delete_many({})
+            print(f"   [-] Đã xóa sạch {delete_dict_result.deleted_count} cấu hình hãng xe cũ trong Master Dictionary.")
+            
+            # Chuẩn bị danh sách bản ghi
+            master_records = []
+            for brand_key, brand_data in master_dict.items():
+                record = {"brand_key": brand_key}
+                record.update(brand_data)
+                master_records.append(record)
+                
+            if master_records:
+                dict_collection.insert_many(master_records)
+                print(f"[SUCCESS] Đã nạp thành công {len(master_records)} cấu hình hãng xe chuẩn lên MongoDB (car_data_platform.master_dictionary_collection)!")
+        else:
+            print("   [!] Không tìm thấy file brand_model_dictionary.json cục bộ để đồng bộ.")
+            
+        client.close()
+    except Exception as e:
+        print(f"[LỖI ĐỒNG BỘ] Không thể đồng bộ Kèo Thơm lên MongoDB: {e}")
+
 if __name__ == "__main__":
     run_daily_sweet_deals_engine()

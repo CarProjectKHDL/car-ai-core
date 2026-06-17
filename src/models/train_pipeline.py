@@ -235,7 +235,7 @@ def execute_advanced_training_pipeline():
     df['is_luxury_brand'] = df['brand'].str.lower().isin(luxury_list).astype(int)
 
     # ----------------------------------------------------------------------------------
-    # CHIẾN THUẬT CHIA ĐỂ TRỊ: BẺ ĐÔI DỮ LIỆU THÀNH 2 PHÂN HỆ ĐỘC LẬP
+    # BẺ ĐÔI DỮ LIỆU THÀNH 2 PHÂN HỆ ĐỘC LẬP
     # ----------------------------------------------------------------------------------
     MSRP_THRESHOLD = 1500.0  # Ngưỡng chia cắt phân khúc: 1.5 Tỷ VNĐ
     df_A = df[df['msrp_proxy'] <= MSRP_THRESHOLD].copy().reset_index(drop=True)

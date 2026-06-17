@@ -33,7 +33,7 @@ jobs:
       run: |
         python src/processing/process_silver.py
 
-    - name: Bulk Upsert Clean Data to MongoDB Atlas Cloud
+    - name: Bulk Upsert Bronze & Silver Data to MongoDB Atlas Cloud
       env:
         MONGO_URI: ${{ secrets.MONGO_URI }}
       run: |
@@ -43,7 +43,9 @@ jobs:
       run: |
         python src/processing/process_gold.py
 
-    - name: Execute Fast Sweet Deals Inference Engine
+    - name: Execute Fast Sweet Deals Inference Engine & Sync Gold/Dictionary
+      env:
+        MONGO_URI: ${{ secrets.MONGO_URI }}
       run: |
         python src/models/extract_deals.py
 
